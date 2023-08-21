@@ -4,16 +4,16 @@ const routes = [
   {
     path: '/',
     component: BaseLayout,
-    redirect: 'dashboard',
+    redirect: 'login',
     meta: {
       authRequired: true,
       hidden: true,
     },
     children: [
       { 
-        path: '/dashboard',
-        name: 'dashboard', 
-        component: () => import('@/views/home/Dashboard.vue'),
+        path: '/home',
+        name: 'home', 
+        component: () => import('../views/home/Dashboard.vue'),
         meta: { transition: 'slide-right' },
        },
       { 

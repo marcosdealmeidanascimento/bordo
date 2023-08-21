@@ -18,8 +18,8 @@ const sidebarState = ref(false)
 
 const teste = async() => {
   configure.login("user@example.com","string")
-  //const response = await apiClient.get("users"); 
-  //console.log(response)
+  const response = await apiClient.get("users"); 
+  console.log(response)
 }
 </script>
 

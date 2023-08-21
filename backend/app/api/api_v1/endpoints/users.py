@@ -90,7 +90,7 @@ async def create_user_open(
     email: EmailStr = Body(...),
     full_name: str = Body(None),
 ) -> Any:
-    print(password)
+    
     """
     Create new user without the need to be logged in.
     """
