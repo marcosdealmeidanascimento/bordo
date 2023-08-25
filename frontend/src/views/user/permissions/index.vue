@@ -1,4 +1,5 @@
 <template>
+  
   <div class="card">
     <Toolbar class="mb-4 indigo-400">
         <template #start>
@@ -63,7 +64,6 @@ const editPermission = async(data) => {
     display.value = false;
 }
 onMounted(() => {
-  getPermission();
 });
 const deletePermission = async (data) => {
   selectedId.value = data.id

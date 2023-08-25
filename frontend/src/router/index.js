@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     component: BaseLayout,
-    redirect: 'login',
+    redirect: 'home',
     meta: {
       authRequired: true,
       hidden: true,
@@ -13,7 +13,7 @@ const routes = [
       { 
         path: '/home',
         name: 'home', 
-        component: () => import('../views/home/Dashboard.vue'),
+        component: () => import('../views/HelloWorld.vue'),
         meta: { transition: 'slide-right' },
        },
       { 
