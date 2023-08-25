@@ -4,3 +4,5 @@ __pycache__/
 node_modules/
 .devcontainer/
 *:Zone.Identifier
+/venv
+/requirements.txt
