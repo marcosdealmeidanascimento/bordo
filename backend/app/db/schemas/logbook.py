@@ -27,7 +27,6 @@ class LogbookUpdate(LogbookBase):
 
 class LogbookInDBBase(LogbookBase):
     id: int
-    user: Optional[User]
     # created_at: datetime
     # updated_at: datetime
     class Config:
