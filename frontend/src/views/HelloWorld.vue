@@ -1,6 +1,6 @@
 <template>
   <div>
-      <button @click='teste()'> </button>
+      <button @click='teste()'>AQUi </button>
       <Button icon="pi pi-arrow-right" @click="sidebarState = true" class="mr-2" />
       <permission></permission>
   </div>  
@@ -17,9 +17,9 @@ const configure = useAuthStore()
 const sidebarState = ref(false)
 
 const teste = async() => {
-  configure.login("user@example.com","string")
+  configure.login("teste@teste.com","string")
   const response = await apiClient.get("users"); 
-  console.log(response)
+  console.log(response.data)
 }
 </script>
 
