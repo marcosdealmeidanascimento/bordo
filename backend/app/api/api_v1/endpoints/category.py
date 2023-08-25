@@ -40,7 +40,7 @@ async def create_category(
     if category:
         raise HTTPException(
             status_code=400,
-            detail="The category with this username already exists in the system.",
+            detail="The category with this name already exists in the system.",
         )
     category = await repositories.category.create(db, obj_in=category_in)
     return category
@@ -72,6 +72,14 @@ async def update_category(
     """
     Update a category.
     """
+    category = await repositories.category.get_by_name(db, name=category_in.name)
+    if category:
+        raise HTTPException(
+            status_code=400,
+            detail="The category with this name already exists in the system.",
+        )
+
+    
     category = await repositories.category.get(db, id=category_id)
     if not category:
         raise HTTPException(

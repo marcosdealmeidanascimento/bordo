@@ -1,28 +1,33 @@
 from typing import List, Optional # noqa: F401, E261
 # from datetime import datetime
 from pydantic import UUID4, BaseModel, EmailStr
+from .user import User
 
 
 # Shared properties
-class CategoryBase(BaseModel):
+class LogbookBase(BaseModel):
     name: str = None
     description: Optional[str] = None
+    user_id: UUID4 = None
 
 
 # Properties to receive via API on creation
-class CategoryCreate(CategoryBase):
+class LogbookCreate(LogbookBase):
     name: str = None
     description: Optional[str] = None
+    user_id: UUID4 = None
 
 
 # Properties to receive via API on update
-class CategoryUpdate(CategoryBase):
+class LogbookUpdate(LogbookBase):
     name: Optional[str] = None
     description: Optional[str] = None
+    user_id: Optional[UUID4] = None
 
 
-class CategoryInDBBase(CategoryBase):
+class LogbookInDBBase(LogbookBase):
     id: int
+    user: Optional[User]
     # created_at: datetime
     # updated_at: datetime
     class Config:
@@ -30,10 +35,10 @@ class CategoryInDBBase(CategoryBase):
 
 
 # Additional properties to return via API
-class Category(CategoryInDBBase):
+class Logbook(LogbookInDBBase):
     pass
 
 
 # Additional properties stored in DB
-class CategoryInDB(CategoryInDBBase):
+class LogbookInDB(LogbookInDBBase):
     pass

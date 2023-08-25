@@ -23217,3 +23217,1740 @@ FROM "user"
 2023-08-25 13:33:23,571 - INFO - uvicorn.error - Started server process [38]
 2023-08-25 13:33:23,571 - INFO - uvicorn.error - Waiting for application startup.
 2023-08-25 13:33:23,572 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 14:18:17,937 - INFO - app.main - ---Starting App---
+2023-08-25 14:18:17,969 - INFO - uvicorn.error - Started server process [64]
+2023-08-25 14:18:17,970 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 14:18:17,970 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 14:18:27,995 - INFO - uvicorn.error - Shutting down
+2023-08-25 14:18:28,096 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 14:18:28,096 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 14:18:28,096 - INFO - uvicorn.error - Finished server process [64]
+2023-08-25 14:18:28,704 - INFO - app.main - ---Starting App---
+2023-08-25 14:18:28,738 - INFO - uvicorn.error - Started server process [66]
+2023-08-25 14:18:28,739 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 14:18:28,739 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 14:20:10,101 - INFO - app.main - ---Starting App---
+2023-08-25 14:20:10,136 - INFO - uvicorn.error - Started server process [72]
+2023-08-25 14:20:10,137 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 14:20:10,137 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 14:21:04,972 - INFO - uvicorn.error - Shutting down
+2023-08-25 14:21:05,072 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 14:21:05,072 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 14:21:05,072 - INFO - uvicorn.error - Finished server process [72]
+2023-08-25 14:21:05,684 - INFO - app.main - ---Starting App---
+2023-08-25 14:21:05,716 - INFO - uvicorn.error - Started server process [74]
+2023-08-25 14:21:05,716 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 14:21:05,717 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 14:21:08,524 - INFO - uvicorn.error - Shutting down
+2023-08-25 14:21:08,624 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 14:21:08,624 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 14:21:08,625 - INFO - uvicorn.error - Finished server process [74]
+2023-08-25 14:51:14,428 - INFO - app.main - ---Starting App---
+2023-08-25 14:51:14,461 - INFO - uvicorn.error - Started server process [224]
+2023-08-25 14:51:14,461 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 14:51:14,461 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:06:28,925 - INFO - app.main - ---Starting App---
+2023-08-25 15:06:28,962 - INFO - uvicorn.error - Started server process [9]
+2023-08-25 15:06:28,963 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:06:28,963 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:07:01,943 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:07:02,044 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:07:02,044 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:07:02,044 - INFO - uvicorn.error - Finished server process [9]
+2023-08-25 15:07:02,826 - INFO - app.main - ---Starting App---
+2023-08-25 15:07:02,859 - INFO - uvicorn.error - Started server process [11]
+2023-08-25 15:07:02,859 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:07:02,860 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:07:02,960 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:07:03,061 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:07:03,061 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:07:03,061 - INFO - uvicorn.error - Finished server process [11]
+2023-08-25 15:07:03,769 - INFO - app.main - ---Starting App---
+2023-08-25 15:07:03,802 - INFO - uvicorn.error - Started server process [13]
+2023-08-25 15:07:03,803 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:07:03,803 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:08:42,651 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:08:42,752 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:08:42,752 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:08:42,752 - INFO - uvicorn.error - Finished server process [13]
+2023-08-25 15:08:43,350 - INFO - app.main - ---Starting App---
+2023-08-25 15:08:43,384 - INFO - uvicorn.error - Started server process [29]
+2023-08-25 15:08:43,384 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:08:43,384 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:09:18,071 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:09:18,172 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:09:18,172 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:09:18,172 - INFO - uvicorn.error - Finished server process [29]
+2023-08-25 15:09:18,802 - INFO - app.main - ---Starting App---
+2023-08-25 15:09:18,834 - INFO - uvicorn.error - Started server process [38]
+2023-08-25 15:09:18,834 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:09:18,835 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:09:19,336 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:09:19,436 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:09:19,437 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:09:19,437 - INFO - uvicorn.error - Finished server process [38]
+2023-08-25 15:09:20,040 - INFO - app.main - ---Starting App---
+2023-08-25 15:09:20,071 - INFO - uvicorn.error - Started server process [40]
+2023-08-25 15:09:20,072 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:09:20,072 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:09:59,445 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:09:59,446 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:09:59,451 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:09:59,451 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:09:59,458 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:09:59,458 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:09:59,463 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:09:59,464 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-25 15:09:59,464 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('teste@teste.com',)
+2023-08-25 15:09:59,768 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:10:05,171 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:05,172 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:10:05,172 - INFO - sqlalchemy.engine.Engine - [generated in 0.00023s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:10:05,177 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:10:05,178 - INFO - sqlalchemy.engine.Engine - [generated in 0.00035s] ('string',)
+2023-08-25 15:10:05,184 - INFO - sqlalchemy.engine.Engine - INSERT INTO category (name, description, created_at, updated_at) VALUES (?, ?, ?, ?) RETURNING category.id
+2023-08-25 15:10:05,184 - INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] ('string', 'string', datetime.datetime(2023, 8, 25, 15, 10, 5, 183952), datetime.datetime(2023, 8, 25, 15, 10, 5, 183959))
+2023-08-25 15:10:05,188 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:10:05,195 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:05,196 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:10:05,196 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] (1,)
+2023-08-25 15:10:05,200 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:10:06,864 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:06,865 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:10:06,865 - INFO - sqlalchemy.engine.Engine - [cached since 1.693s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:10:06,869 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:10:06,870 - INFO - sqlalchemy.engine.Engine - [cached since 1.692s ago] ('string',)
+2023-08-25 15:10:06,874 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:10:15,405 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:15,405 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:10:15,405 - INFO - sqlalchemy.engine.Engine - [cached since 10.23s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:10:15,410 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:10:15,410 - INFO - sqlalchemy.engine.Engine - [cached since 10.23s ago] ('meme',)
+2023-08-25 15:10:15,416 - INFO - sqlalchemy.engine.Engine - INSERT INTO category (name, description, created_at, updated_at) VALUES (?, ?, ?, ?) RETURNING category.id
+2023-08-25 15:10:15,416 - INFO - sqlalchemy.engine.Engine - [cached since 10.23s ago] ('meme', 'string', datetime.datetime(2023, 8, 25, 15, 10, 15, 416131), datetime.datetime(2023, 8, 25, 15, 10, 15, 416136))
+2023-08-25 15:10:15,421 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:10:15,428 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:15,429 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:10:15,429 - INFO - sqlalchemy.engine.Engine - [cached since 10.23s ago] (2,)
+2023-08-25 15:10:15,433 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:10:39,479 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:10:39,480 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:10:39,480 - INFO - sqlalchemy.engine.Engine - [cached since 34.31s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:10:39,485 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:10:39,486 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (1,)
+2023-08-25 15:10:39,490 - INFO - sqlalchemy.engine.Engine - UPDATE category SET name=?, updated_at=? WHERE category.id = ?
+2023-08-25 15:10:39,490 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('meme', datetime.datetime(2023, 8, 25, 15, 10, 39, 490502), 1)
+2023-08-25 15:10:39,494 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:10:39,497 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 81, in update_category
+    category = await repositories.category.update(db, db_obj=category, obj_in=category_in)
+  File "./app/db/repositories/crud_category.py", line 35, in update
+    return await super().update(db, db_obj=db_obj, obj_in=update_data)
+  File "./app/db/repositories/base.py", line 59, in update
+    await db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/ext/asyncio/session.py", line 245, in commit
+    return await greenlet_spawn(self.sync_session.commit)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 93, in greenlet_spawn
+    result = context.switch(value)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1283, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 709, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 688, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3099, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3239, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 180, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3199, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 442, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 609, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 233, in save_obj
+    _emit_update_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 997, in _emit_update_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1443, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 310, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1312, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1671, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1852, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 180, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1628, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 663, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 350, in execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 290, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    raise error
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 346, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 41, in await_only
+    return current.driver.switch(awaitable)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 86, in greenlet_spawn
+    value = await result
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 342, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 290, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 509, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "category_name_key"
+DETAIL:  Key (name)=(meme) already exists.
+[SQL: UPDATE category SET name=?, updated_at=? WHERE category.id = ?]
+[parameters: ('meme', datetime.datetime(2023, 8, 25, 15, 10, 39, 490502), 1)]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2023-08-25 15:11:58,276 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:11:58,376 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:11:58,377 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:11:58,377 - INFO - uvicorn.error - Finished server process [40]
+2023-08-25 15:11:59,021 - INFO - app.main - ---Starting App---
+2023-08-25 15:11:59,054 - INFO - uvicorn.error - Started server process [47]
+2023-08-25 15:11:59,054 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:11:59,055 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:12:11,094 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:12:11,094 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:12:11,100 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:12:11,100 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:12:11,107 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:12:11,108 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:12:11,114 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:12:11,116 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:12:11,116 - INFO - sqlalchemy.engine.Engine - [generated in 0.00037s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:12:11,124 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:12:11,124 - INFO - sqlalchemy.engine.Engine - [generated in 0.00028s] (1,)
+2023-08-25 15:12:11,131 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:12:11,131 - INFO - sqlalchemy.engine.Engine - [generated in 0.00037s] ('meme',)
+2023-08-25 15:12:11,138 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:12:17,742 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:12:17,743 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:12:17,743 - INFO - sqlalchemy.engine.Engine - [cached since 6.627s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:12:17,748 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:12:17,748 - INFO - sqlalchemy.engine.Engine - [cached since 6.624s ago] (1,)
+2023-08-25 15:12:17,753 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:12:17,753 - INFO - sqlalchemy.engine.Engine - [cached since 6.622s ago] ('memes',)
+2023-08-25 15:12:17,757 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:12:17,759 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 89, in update_category
+    category = await repositories.category.update(db, db_obj=category, obj_in=category_in)
+  File "./app/db/repositories/crud_category.py", line 35, in update
+    return await super().update(db, db_obj=db_obj, obj_in=update_data)
+  File "./app/db/repositories/base.py", line 55, in update
+    for field in obj_data:
+TypeError: 'NoneType' object is not iterable
+2023-08-25 15:13:29,987 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:13:30,087 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:13:30,088 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:13:30,088 - INFO - uvicorn.error - Finished server process [47]
+2023-08-25 15:13:30,705 - INFO - app.main - ---Starting App---
+2023-08-25 15:13:30,740 - INFO - uvicorn.error - Started server process [53]
+2023-08-25 15:13:30,740 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:13:30,740 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:13:37,561 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:13:37,561 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:37,567 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:13:37,567 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:37,574 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:13:37,574 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:37,579 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:13:37,581 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:13:37,581 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:13:37,588 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:13:37,588 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (1,)
+2023-08-25 15:13:37,593 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:13:37,593 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('memes',)
+2023-08-25 15:13:37,598 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:13:37,599 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 89, in update_category
+    category = await repositories.category.update(db, db_obj=category, obj_in=category_in)
+  File "./app/db/repositories/crud_category.py", line 35, in update
+    return await super().update(db, db_obj=db_obj, obj_in=update_data)
+  File "./app/db/repositories/base.py", line 55, in update
+    for field in obj_data:
+TypeError: 'NoneType' object is not iterable
+2023-08-25 15:13:38,410 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:13:38,410 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:13:38,410 - INFO - sqlalchemy.engine.Engine - [cached since 0.8299s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:13:38,415 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:13:38,415 - INFO - sqlalchemy.engine.Engine - [cached since 0.8278s ago] (1,)
+2023-08-25 15:13:38,421 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:13:38,421 - INFO - sqlalchemy.engine.Engine - [cached since 0.8278s ago] ('memes',)
+2023-08-25 15:13:38,425 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:13:38,427 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 89, in update_category
+    category = await repositories.category.update(db, db_obj=category, obj_in=category_in)
+  File "./app/db/repositories/crud_category.py", line 35, in update
+    return await super().update(db, db_obj=db_obj, obj_in=update_data)
+  File "./app/db/repositories/base.py", line 55, in update
+    for field in obj_data:
+TypeError: 'NoneType' object is not iterable
+2023-08-25 15:13:45,778 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:13:45,878 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:13:45,878 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:13:45,879 - INFO - uvicorn.error - Finished server process [53]
+2023-08-25 15:13:46,495 - INFO - app.main - ---Starting App---
+2023-08-25 15:13:46,528 - INFO - uvicorn.error - Started server process [59]
+2023-08-25 15:13:46,528 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:13:46,529 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:13:50,850 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:13:50,850 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:50,856 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:13:50,856 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:50,864 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:13:50,864 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:13:50,869 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:13:50,871 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:13:50,871 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:13:50,877 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:13:50,877 - INFO - sqlalchemy.engine.Engine - [generated in 0.00026s] (1,)
+2023-08-25 15:13:50,882 - INFO - sqlalchemy.engine.Engine - UPDATE category SET name=?, updated_at=? WHERE category.id = ?
+2023-08-25 15:13:50,883 - INFO - sqlalchemy.engine.Engine - [generated in 0.00036s] ('memes', datetime.datetime(2023, 8, 25, 15, 13, 50, 882761), 1)
+2023-08-25 15:13:50,887 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:13:50,894 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:13:50,895 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:13:50,895 - INFO - sqlalchemy.engine.Engine - [generated in 0.00023s] (1,)
+2023-08-25 15:13:50,900 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:13,400 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:14:13,501 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:14:13,501 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:14:13,501 - INFO - uvicorn.error - Finished server process [59]
+2023-08-25 15:14:14,120 - INFO - app.main - ---Starting App---
+2023-08-25 15:14:14,154 - INFO - uvicorn.error - Started server process [65]
+2023-08-25 15:14:14,154 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:14:14,154 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:14:19,325 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:14:19,325 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:19,330 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:14:19,330 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:19,338 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:14:19,339 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:19,344 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:19,345 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:19,346 - INFO - sqlalchemy.engine.Engine - [generated in 0.00034s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:19,352 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:19,352 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (1,)
+2023-08-25 15:14:19,357 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:19,357 - INFO - sqlalchemy.engine.Engine - [generated in 0.00026s] ('meme',)
+2023-08-25 15:14:19,362 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:28,270 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:28,271 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:28,271 - INFO - sqlalchemy.engine.Engine - [cached since 8.926s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:28,276 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:28,276 - INFO - sqlalchemy.engine.Engine - [cached since 8.924s ago] (1,)
+2023-08-25 15:14:28,280 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:28,280 - INFO - sqlalchemy.engine.Engine - [cached since 8.923s ago] ('string',)
+2023-08-25 15:14:28,285 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:28,287 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 89, in update_category
+    category = await repositories.category.update(db, db_obj=category, obj_in=category_in)
+  File "./app/db/repositories/crud_category.py", line 35, in update
+    return await super().update(db, db_obj=db_obj, obj_in=update_data)
+  File "./app/db/repositories/base.py", line 55, in update
+    for field in obj_data:
+TypeError: 'NoneType' object is not iterable
+2023-08-25 15:14:42,623 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:14:42,724 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:14:42,724 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:14:42,724 - INFO - uvicorn.error - Finished server process [65]
+2023-08-25 15:14:43,364 - INFO - app.main - ---Starting App---
+2023-08-25 15:14:43,397 - INFO - uvicorn.error - Started server process [71]
+2023-08-25 15:14:43,397 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:14:43,398 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:14:45,611 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:14:45,611 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:45,617 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:14:45,617 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:45,624 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:14:45,625 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:14:45,630 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:45,631 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:45,631 - INFO - sqlalchemy.engine.Engine - [generated in 0.00028s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:45,639 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:45,639 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] ('string',)
+2023-08-25 15:14:45,644 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:45,645 - INFO - sqlalchemy.engine.Engine - [generated in 0.00026s] (1,)
+2023-08-25 15:14:45,650 - INFO - sqlalchemy.engine.Engine - UPDATE category SET name=?, updated_at=? WHERE category.id = ?
+2023-08-25 15:14:45,650 - INFO - sqlalchemy.engine.Engine - [generated in 0.00035s] ('string', datetime.datetime(2023, 8, 25, 15, 14, 45, 650052), 1)
+2023-08-25 15:14:45,655 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:14:45,662 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:45,663 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:45,663 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (1,)
+2023-08-25 15:14:45,668 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:50,645 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:50,645 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:50,645 - INFO - sqlalchemy.engine.Engine - [cached since 5.014s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:50,650 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:50,650 - INFO - sqlalchemy.engine.Engine - [cached since 5.011s ago] ('Meme',)
+2023-08-25 15:14:50,654 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:50,655 - INFO - sqlalchemy.engine.Engine - [cached since 5.01s ago] (1,)
+2023-08-25 15:14:50,659 - INFO - sqlalchemy.engine.Engine - UPDATE category SET name=?, updated_at=? WHERE category.id = ?
+2023-08-25 15:14:50,659 - INFO - sqlalchemy.engine.Engine - [cached since 5.009s ago] ('Meme', datetime.datetime(2023, 8, 25, 15, 14, 50, 659235), 1)
+2023-08-25 15:14:50,663 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:14:50,671 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:50,671 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:50,671 - INFO - sqlalchemy.engine.Engine - [cached since 5.009s ago] (1,)
+2023-08-25 15:14:50,676 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:53,548 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:53,549 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:53,549 - INFO - sqlalchemy.engine.Engine - [cached since 7.918s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:53,557 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:53,557 - INFO - sqlalchemy.engine.Engine - [cached since 7.918s ago] ('Memes',)
+2023-08-25 15:14:53,562 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:53,563 - INFO - sqlalchemy.engine.Engine - [cached since 7.918s ago] (1,)
+2023-08-25 15:14:53,567 - INFO - sqlalchemy.engine.Engine - UPDATE category SET name=?, updated_at=? WHERE category.id = ?
+2023-08-25 15:14:53,567 - INFO - sqlalchemy.engine.Engine - [cached since 7.918s ago] ('Memes', datetime.datetime(2023, 8, 25, 15, 14, 53, 567620), 1)
+2023-08-25 15:14:53,572 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:14:53,578 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:53,579 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:14:53,579 - INFO - sqlalchemy.engine.Engine - [cached since 7.916s ago] (1,)
+2023-08-25 15:14:53,584 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:14:55,103 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:14:55,104 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:14:55,104 - INFO - sqlalchemy.engine.Engine - [cached since 9.473s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:14:55,109 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:14:55,109 - INFO - sqlalchemy.engine.Engine - [cached since 9.47s ago] ('Memes',)
+2023-08-25 15:14:55,114 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:15:07,204 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:15:07,205 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:15:07,205 - INFO - sqlalchemy.engine.Engine - [cached since 21.57s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:15:07,210 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:15:07,210 - INFO - sqlalchemy.engine.Engine - [cached since 21.57s ago] ('Memes',)
+2023-08-25 15:15:07,214 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:15:14,568 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:15:14,568 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:15:14,569 - INFO - sqlalchemy.engine.Engine - [cached since 28.94s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:15:14,573 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:15:14,574 - INFO - sqlalchemy.engine.Engine - [cached since 28.93s ago] ('poque',)
+2023-08-25 15:15:14,578 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:15:14,578 - INFO - sqlalchemy.engine.Engine - [cached since 28.93s ago] (3,)
+2023-08-25 15:15:14,583 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:16:20,748 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:16:20,848 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:16:20,849 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:16:20,849 - INFO - uvicorn.error - Finished server process [71]
+2023-08-25 15:16:21,449 - INFO - app.main - ---Starting App---
+2023-08-25 15:16:21,481 - INFO - uvicorn.error - Started server process [77]
+2023-08-25 15:16:21,481 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:16:21,482 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:16:35,853 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:16:35,853 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:16:35,859 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:16:35,859 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:16:35,866 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:16:35,866 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:16:35,872 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:16:35,874 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:16:35,874 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:16:35,880 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:16:35,881 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 39, in create_category
+    category = await repositories.category.get_by_name(db, name=category_in.name, description=category_in.description)
+TypeError: get_by_name() got an unexpected keyword argument 'description'
+2023-08-25 15:16:41,096 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:16:41,096 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:16:41,096 - INFO - sqlalchemy.engine.Engine - [cached since 5.223s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:16:41,102 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:16:41,104 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/category.py", line 39, in create_category
+    category = await repositories.category.get_by_name(db, name=category_in.name, description=category_in.description)
+TypeError: get_by_name() got an unexpected keyword argument 'description'
+2023-08-25 15:16:47,444 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:16:47,545 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:16:47,545 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:16:47,545 - INFO - uvicorn.error - Finished server process [77]
+2023-08-25 15:16:48,172 - INFO - app.main - ---Starting App---
+2023-08-25 15:16:48,209 - INFO - uvicorn.error - Started server process [83]
+2023-08-25 15:16:48,209 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:16:48,209 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:16:48,711 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:16:48,812 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:16:48,812 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:16:48,812 - INFO - uvicorn.error - Finished server process [83]
+2023-08-25 15:16:49,423 - INFO - app.main - ---Starting App---
+2023-08-25 15:16:49,454 - INFO - uvicorn.error - Started server process [85]
+2023-08-25 15:16:49,455 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:16:49,455 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:16:58,478 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:16:58,578 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:16:58,579 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:16:58,579 - INFO - uvicorn.error - Finished server process [85]
+2023-08-25 15:16:59,185 - INFO - app.main - ---Starting App---
+2023-08-25 15:16:59,217 - INFO - uvicorn.error - Started server process [87]
+2023-08-25 15:16:59,217 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:16:59,217 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:17:04,168 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:17:04,169 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:17:04,175 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:17:04,176 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:17:04,182 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:17:04,183 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:17:04,188 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:17:04,190 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:17:04,190 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:17:04,196 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.name = ?
+2023-08-25 15:17:04,197 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] ('s',)
+2023-08-25 15:17:04,202 - INFO - sqlalchemy.engine.Engine - INSERT INTO category (name, description, created_at, updated_at) VALUES (?, ?, ?, ?) RETURNING category.id
+2023-08-25 15:17:04,202 - INFO - sqlalchemy.engine.Engine - [generated in 0.00031s] ('s', "it's about time", datetime.datetime(2023, 8, 25, 15, 17, 4, 202136), datetime.datetime(2023, 8, 25, 15, 17, 4, 202147))
+2023-08-25 15:17:04,207 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:17:04,214 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:17:04,215 - INFO - sqlalchemy.engine.Engine - SELECT category.id, category.name, category.description, category.created_at, category.updated_at 
+FROM category 
+WHERE category.id = ?
+2023-08-25 15:17:04,215 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] (3,)
+2023-08-25 15:17:04,221 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:18:50,711 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:18:50,812 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:18:50,812 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:18:50,812 - INFO - uvicorn.error - Finished server process [87]
+2023-08-25 15:18:51,443 - INFO - app.main - ---Starting App---
+2023-08-25 15:18:51,475 - INFO - uvicorn.error - Started server process [93]
+2023-08-25 15:18:51,475 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:18:51,475 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:18:51,676 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:18:51,777 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:18:51,777 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:18:51,777 - INFO - uvicorn.error - Finished server process [93]
+2023-08-25 15:18:52,376 - INFO - app.main - ---Starting App---
+2023-08-25 15:18:52,408 - INFO - uvicorn.error - Started server process [95]
+2023-08-25 15:18:52,408 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:18:52,409 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:18:59,929 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:19:00,029 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:19:00,029 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:19:00,030 - INFO - uvicorn.error - Finished server process [95]
+2023-08-25 15:19:00,624 - INFO - app.main - ---Starting App---
+2023-08-25 15:19:00,656 - INFO - uvicorn.error - Started server process [97]
+2023-08-25 15:19:00,656 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:19:00,656 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:19:18,003 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:19:18,103 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:19:18,103 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:19:18,104 - INFO - uvicorn.error - Finished server process [97]
+2023-08-25 15:19:18,748 - INFO - app.main - ---Starting App---
+2023-08-25 15:19:18,795 - INFO - uvicorn.error - Started server process [99]
+2023-08-25 15:19:18,796 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:19:18,796 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:19:34,020 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:19:34,020 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:19:34,027 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:19:34,027 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:19:34,034 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:19:34,034 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:19:34,039 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:19:34,041 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-25 15:19:34,041 - INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] ('teste@teste.com',)
+2023-08-25 15:19:34,284 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:19:37,794 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:19:37,796 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:19:37,796 - INFO - sqlalchemy.engine.Engine - [generated in 0.00035s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:19:37,802 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+ LIMIT ? OFFSET ?
+2023-08-25 15:19:37,802 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (100, 0)
+2023-08-25 15:19:37,807 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:19:53,099 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:19:53,100 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:19:53,100 - INFO - sqlalchemy.engine.Engine - [cached since 15.3s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:19:53,105 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.name = ? AND logbook.user_id = ?
+2023-08-25 15:19:53,105 - INFO - sqlalchemy.engine.Engine - [generated in 0.00028s] ('string', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'))
+2023-08-25 15:19:53,111 - INFO - sqlalchemy.engine.Engine - INSERT INTO logbook (name, description, user_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING logbook.id
+2023-08-25 15:19:53,111 - INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] ('string', 'string', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'), datetime.datetime(2023, 8, 25, 15, 19, 53, 111045), datetime.datetime(2023, 8, 25, 15, 19, 53, 111051))
+2023-08-25 15:19:53,115 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:19:53,123 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:19:53,124 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:19:53,125 - INFO - sqlalchemy.engine.Engine - [generated in 0.00026s] (1,)
+2023-08-25 15:19:53,129 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:19:53,130 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:19:53,134 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:20:25,342 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:20:25,343 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:20:25,343 - INFO - sqlalchemy.engine.Engine - [cached since 47.55s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:20:25,348 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.name = ? AND logbook.user_id = ?
+2023-08-25 15:20:25,348 - INFO - sqlalchemy.engine.Engine - [cached since 32.24s ago] ('string', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'))
+2023-08-25 15:20:25,355 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id IN (?)
+2023-08-25 15:20:25,355 - INFO - sqlalchemy.engine.Engine - [generated in 0.00043s] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:20:25,361 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:20:36,612 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:20:36,613 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:20:36,613 - INFO - sqlalchemy.engine.Engine - [cached since 58.82s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:20:36,618 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.name = ? AND logbook.user_id = ?
+2023-08-25 15:20:36,618 - INFO - sqlalchemy.engine.Engine - [cached since 43.51s ago] ('hello mario', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'))
+2023-08-25 15:20:36,623 - INFO - sqlalchemy.engine.Engine - INSERT INTO logbook (name, description, user_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING logbook.id
+2023-08-25 15:20:36,623 - INFO - sqlalchemy.engine.Engine - [cached since 43.51s ago] ('hello mario', 'string', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'), datetime.datetime(2023, 8, 25, 15, 20, 36, 623064), datetime.datetime(2023, 8, 25, 15, 20, 36, 623068))
+2023-08-25 15:20:36,628 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:20:36,635 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:20:36,636 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:20:36,636 - INFO - sqlalchemy.engine.Engine - [cached since 43.51s ago] (2,)
+2023-08-25 15:20:36,640 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:20:36,641 - INFO - sqlalchemy.engine.Engine - [cached since 43.51s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:20:36,646 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:20:42,569 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:20:42,570 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:20:42,570 - INFO - sqlalchemy.engine.Engine - [cached since 64.77s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:20:42,575 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:20:42,575 - INFO - sqlalchemy.engine.Engine - [generated in 0.00033s] (1,)
+2023-08-25 15:20:42,580 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id IN (?)
+2023-08-25 15:20:42,580 - INFO - sqlalchemy.engine.Engine - [cached since 17.23s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:20:42,585 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:20:44,737 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:20:44,737 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:20:44,738 - INFO - sqlalchemy.engine.Engine - [cached since 66.94s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:20:44,743 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:20:44,744 - INFO - sqlalchemy.engine.Engine - [cached since 2.169s ago] (2,)
+2023-08-25 15:20:44,748 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id IN (?)
+2023-08-25 15:20:44,748 - INFO - sqlalchemy.engine.Engine - [cached since 19.39s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:20:44,753 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:21:00,080 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:21:00,080 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:21:00,081 - INFO - sqlalchemy.engine.Engine - [cached since 82.28s ago] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:21:00,086 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.name = ? AND logbook.user_id = ?
+2023-08-25 15:21:00,086 - INFO - sqlalchemy.engine.Engine - [cached since 66.98s ago] ('Leafy', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'))
+2023-08-25 15:21:00,090 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:21:00,090 - INFO - sqlalchemy.engine.Engine - [cached since 17.52s ago] (1,)
+2023-08-25 15:21:00,095 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id IN (?)
+2023-08-25 15:21:00,095 - INFO - sqlalchemy.engine.Engine - [cached since 34.74s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:21:00,100 - INFO - sqlalchemy.engine.Engine - UPDATE logbook SET name=?, description=?, updated_at=? WHERE logbook.id = ?
+2023-08-25 15:21:00,101 - INFO - sqlalchemy.engine.Engine - [generated in 0.00033s] ('Leafy', 'Float Down', datetime.datetime(2023, 8, 25, 15, 21, 0, 100822), 1)
+2023-08-25 15:21:00,105 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:21:00,113 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:21:00,113 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:21:00,114 - INFO - sqlalchemy.engine.Engine - [cached since 66.99s ago] (1,)
+2023-08-25 15:21:00,118 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:21:00,118 - INFO - sqlalchemy.engine.Engine - [cached since 66.99s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:21:00,123 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:21:11,332 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:21:11,332 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:21:11,332 - INFO - sqlalchemy.engine.Engine - [cached since 28.76s ago] (2,)
+2023-08-25 15:21:11,337 - INFO - sqlalchemy.engine.Engine - SELECT "user".id AS user_id, "user".full_name AS user_full_name, "user".email AS user_email, "user".hashed_password AS user_hashed_password, "user".is_active AS user_is_active, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".id IN (?)
+2023-08-25 15:21:11,337 - INFO - sqlalchemy.engine.Engine - [cached since 45.98s ago] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:21:11,341 - INFO - sqlalchemy.engine.Engine - DELETE FROM logbook WHERE logbook.id = ?
+2023-08-25 15:21:11,341 - INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] (2,)
+2023-08-25 15:21:11,346 - INFO - sqlalchemy.engine.Engine - DELETE FROM "user" WHERE "user".id = ?
+2023-08-25 15:21:11,346 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)
+2023-08-25 15:21:11,350 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:21:11,352 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.remove(db=db, id=id)
+  File "./app/db/repositories/base.py", line 66, in remove
+    await db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/ext/asyncio/session.py", line 245, in commit
+    return await greenlet_spawn(self.sync_session.commit)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 93, in greenlet_spawn
+    result = context.switch(value)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1283, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 709, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 688, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3099, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3239, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 180, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3199, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 442, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 645, in execute
+    util.preloaded.orm_persistence.delete_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 339, in delete_obj
+    _emit_delete_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1440, in _emit_delete_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1443, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 310, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1312, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1671, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1852, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 180, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1628, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 663, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 350, in execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 290, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    raise error
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 346, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 41, in await_only
+    return current.driver.switch(awaitable)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 86, in greenlet_spawn
+    value = await result
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 342, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 290, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 509, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: update or delete on table "user" violates foreign key constraint "logbook_user_id_fkey" on table "logbook"
+DETAIL:  Key (id)=(f332d7ce-3600-47b5-9b22-5a856600448d) is still referenced from table "logbook".
+[SQL: DELETE FROM "user" WHERE "user".id = ?]
+[parameters: (UUID('f332d7ce-3600-47b5-9b22-5a856600448d'),)]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2023-08-25 15:22:46,079 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:22:46,180 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:22:46,180 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:22:46,180 - INFO - uvicorn.error - Finished server process [99]
+2023-08-25 15:22:46,869 - INFO - app.main - ---Starting App---
+2023-08-25 15:22:46,915 - INFO - uvicorn.error - Started server process [106]
+2023-08-25 15:22:46,915 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:22:46,915 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:22:53,834 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:22:53,935 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:22:53,935 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:22:53,935 - INFO - uvicorn.error - Finished server process [106]
+2023-08-25 15:22:54,598 - INFO - app.main - ---Starting App---
+2023-08-25 15:22:54,644 - INFO - uvicorn.error - Started server process [108]
+2023-08-25 15:22:54,645 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:22:54,645 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:22:59,072 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:22:59,072 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:22:59,080 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:22:59,080 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:22:59,087 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:22:59,087 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:22:59,092 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:22:59,094 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:22:59,094 - INFO - sqlalchemy.engine.Engine - [generated in 0.00041s] (2,)
+2023-08-25 15:22:59,101 - INFO - sqlalchemy.engine.Engine - DELETE FROM logbook WHERE logbook.id = ?
+2023-08-25 15:22:59,102 - INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] (2,)
+2023-08-25 15:22:59,106 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:23:11,096 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:23:11,097 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-08-25 15:23:11,098 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] ('f332d7ce-3600-47b5-9b22-5a856600448d',)
+2023-08-25 15:23:11,104 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.name = ? AND logbook.user_id = ?
+2023-08-25 15:23:11,104 - INFO - sqlalchemy.engine.Engine - [generated in 0.00030s] ('hello mario', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'))
+2023-08-25 15:23:11,110 - INFO - sqlalchemy.engine.Engine - INSERT INTO logbook (name, description, user_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING logbook.id
+2023-08-25 15:23:11,110 - INFO - sqlalchemy.engine.Engine - [generated in 0.00035s] ('hello mario', 'string', UUID('f332d7ce-3600-47b5-9b22-5a856600448d'), datetime.datetime(2023, 8, 25, 15, 23, 11, 110365), datetime.datetime(2023, 8, 25, 15, 23, 11, 110371))
+2023-08-25 15:23:11,115 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:23:11,122 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:23:11,123 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:23:11,124 - INFO - sqlalchemy.engine.Engine - [generated in 0.00027s] (3,)
+2023-08-25 15:23:11,129 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:23:22,175 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:23:22,176 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:23:22,176 - INFO - sqlalchemy.engine.Engine - [cached since 23.08s ago] (2,)
+2023-08-25 15:23:22,181 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-25 15:23:22,183 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.remove(db=db, id=id)
+  File "./app/db/repositories/base.py", line 65, in remove
+    db.delete(obj)
+  File "<string>", line 2, in delete
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2409, in delete
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 180, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2023-08-25 15:23:26,259 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:23:26,259 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:23:26,259 - INFO - sqlalchemy.engine.Engine - [cached since 27.17s ago] (3,)
+2023-08-25 15:23:26,266 - INFO - sqlalchemy.engine.Engine - DELETE FROM logbook WHERE logbook.id = ?
+2023-08-25 15:23:26,266 - INFO - sqlalchemy.engine.Engine - [cached since 27.17s ago] (3,)
+2023-08-25 15:23:26,271 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-08-25 15:23:46,675 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:23:46,776 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:23:46,776 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:23:46,776 - INFO - uvicorn.error - Finished server process [108]
+2023-08-25 15:23:47,435 - INFO - app.main - ---Starting App---
+2023-08-25 15:23:47,481 - INFO - uvicorn.error - Started server process [114]
+2023-08-25 15:23:47,481 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:23:47,481 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:24:09,941 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:24:10,042 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:24:10,042 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:24:10,042 - INFO - uvicorn.error - Finished server process [114]
+2023-08-25 15:24:10,672 - INFO - app.main - ---Starting App---
+2023-08-25 15:24:10,718 - INFO - uvicorn.error - Started server process [116]
+2023-08-25 15:24:10,718 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:24:10,718 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:25:04,758 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:25:04,859 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:25:04,859 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:25:04,859 - INFO - uvicorn.error - Finished server process [116]
+2023-08-25 15:25:05,496 - INFO - app.main - ---Starting App---
+2023-08-25 15:25:05,544 - INFO - uvicorn.error - Started server process [118]
+2023-08-25 15:25:05,544 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:25:05,544 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:25:08,352 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:25:08,452 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:25:08,453 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:25:08,453 - INFO - uvicorn.error - Finished server process [118]
+2023-08-25 15:25:09,107 - INFO - app.main - ---Starting App---
+2023-08-25 15:25:09,155 - INFO - uvicorn.error - Started server process [120]
+2023-08-25 15:25:09,155 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:25:09,156 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:26:21,844 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:26:21,945 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:26:21,945 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:26:21,945 - INFO - uvicorn.error - Finished server process [120]
+2023-08-25 15:26:23,400 - INFO - app.main - ---Starting App---
+2023-08-25 15:26:23,447 - INFO - uvicorn.error - Started server process [124]
+2023-08-25 15:26:23,447 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:26:23,447 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:26:53,626 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:26:53,727 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:26:53,727 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:26:53,727 - INFO - uvicorn.error - Finished server process [124]
+2023-08-25 15:26:54,411 - INFO - app.main - ---Starting App---
+2023-08-25 15:26:54,459 - INFO - uvicorn.error - Started server process [126]
+2023-08-25 15:26:54,459 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:26:54,460 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:26:56,420 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:57,488 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:58,074 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:58,438 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:58,800 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,078 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,306 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,482 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,630 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,779 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:26:59,903 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:27:00,050 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:27:00,157 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/logbook.py", line 98, in delete_logbook
+    logbook = await repositories.logbook.get(db, id=logbook_id)
+NameError: name 'logbook_id' is not defined
+2023-08-25 15:27:06,284 - INFO - uvicorn.error - Shutting down
+2023-08-25 15:27:06,385 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-25 15:27:06,385 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-25 15:27:06,385 - INFO - uvicorn.error - Finished server process [126]
+2023-08-25 15:27:07,081 - INFO - app.main - ---Starting App---
+2023-08-25 15:27:07,127 - INFO - uvicorn.error - Started server process [128]
+2023-08-25 15:27:07,128 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-25 15:27:07,128 - INFO - uvicorn.error - Application startup complete.
+2023-08-25 15:27:07,676 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-25 15:27:07,676 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:27:07,683 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-25 15:27:07,683 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:27:07,691 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-25 15:27:07,691 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-25 15:27:07,697 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-25 15:27:07,698 - INFO - sqlalchemy.engine.Engine - SELECT logbook.id, logbook.name, logbook.description, logbook.user_id, logbook.created_at, logbook.updated_at 
+FROM logbook 
+WHERE logbook.id = ?
+2023-08-25 15:27:07,698 - INFO - sqlalchemy.engine.Engine - [generated in 0.00025s] (6,)
+2023-08-25 15:27:07,704 - INFO - sqlalchemy.engine.Engine - ROLLBACK
