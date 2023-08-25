@@ -7,3 +7,4 @@ node_modules/
 *:Zone.Identifier
 /venv
 /requirements.txt
+/backend/logs
