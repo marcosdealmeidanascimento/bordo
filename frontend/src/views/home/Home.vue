@@ -9,9 +9,14 @@ import { ref, onMounted } from "vue";
 const configure = useAuthStore()
 
 const testToken = async () => {
-  const response = await apiClient.post("login/test-token");
-  if (response.error) {
+  try {
+    const response = await apiClient.post("login/test-token");
+    if (response.error) {
+      window.location.assign("/login")
+    }
+  } catch(err) {
     window.location.assign("/login")
+    
   }
 
 }

@@ -1,16 +1,16 @@
-<template>
+<template class="tBone">
   <section class="flex justify-content-center">
 
     <form @submit.prevent="register" class="flex flex-column w-min">
 
       <label for="fullname" class="col-fixed mt-5">Full Name</label>
-      <InputText v-model="fullname" placeholder="Full Name" required />
+      <InputText :autofocus=true v-model="fullname" placeholder="Full Name" required />
 
       <label for="username" class="col-fixed mt-2">E-mail</label>
       <InputText v-model="user" placeholder="user@example.com" required type="email" />
 
       <label for="password" class="col-fixed mt-5">Password</label>
-      <Password v-model="pw" toggleMask required :class="invalidPw"/>
+      <Password v-model="pw" toggleMask required :class="invalidPw" />
 
       <label for="password" class="col-fixed mt-2">Confirm Password</label>
       <Password v-model="confpw" :feedback="false" toggleMask required :class="invalidPw" />
@@ -30,10 +30,10 @@ import { ref, onMounted } from "vue";
 import InputText from 'primevue/inputtext';
 import Toast from 'primevue/toast';
 import { useToast } from 'primevue/usetoast';
+import { useRouter } from 'vue-router'
 
 const toast = useToast();
-
-const configure = useAuthStore()
+const router = useRouter();
 
 const user = ref("");
 const fullname = ref("");
@@ -41,16 +41,11 @@ const pw = ref("");
 const confpw = ref("");
 const invalidPw = ref("");
 const invalidEmail = ref("");
-const users = ref();
-
-const show = () => {
-  toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Incorrect Email or Password', life: 3000 });
-};
 
 
 const register = async () => {
-  if (pw.value.length < 6 || pw.value.length > 12) {
-    toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Password length must be greater than 6 and less than 12', life: 3000 });
+  if (pw.value.length < 6 || pw.value.length > 20) {
+    toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Password length must be greater than 6 and less than 20', life: 3000 });
     invalidPw.value = "p-invalid"
 
   } else if (pw.value !== confpw.value) {
@@ -63,13 +58,20 @@ const register = async () => {
   if (!user.value.includes('.com')) {
     toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Not a valid E-mail', life: 3000 });
     invalidEmail.value = "p-invalid"
+  } else {
+
+    const data = {
+      full_name: fullname.value,
+      password: confpw.value,
+      email: user.value,
+    }
+
+    const response = await apiClient.post("users/open", data)
+
+    router.push("/");
+
   }
 
-  const data = {
-    fullname: fullname.value,
-    password: confpw.value,
-    email: user.value,
-  }
 
 }
 
@@ -78,3 +80,10 @@ onMounted(() => {
 })
 
 </script>
+
+
+<style scoped>
+section {
+  margin: 5rem 2.5rem;
+}
+</style>

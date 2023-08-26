@@ -17,8 +17,4 @@ body {
     margin: 0 !important;
     background-color: var(--surface-ground);
 }
-
-section {
-    margin: 5rem 2.5rem;
-}
 </style>

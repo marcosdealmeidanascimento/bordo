@@ -32,7 +32,7 @@ export const useAuthStore = defineStore({
 
       const userResponse = await axios.post(
         import.meta.env.VITE_SERVER_NAME + "users/open/email",
-        (data = { email: username })
+        {email: username}
       );
 
       if (userResponse.data == 1) {

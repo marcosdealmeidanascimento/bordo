@@ -4,7 +4,7 @@ const routes = [
   {
     path: "/",
     component: BaseLayout,
-    redirect: "home",
+    redirect: "loading",
     meta: {
       authRequired: true,
       hidden: true,
@@ -14,19 +14,13 @@ const routes = [
         path: "/home",
         name: "home",
         component: () => import("../views/home/Home.vue"),
-        meta: { transition: "slide-right" },
+        meta: { transition: 'slide-right' },
       },
       {
-        path: "/permission",
-        name: "permission",
-        component: () => import("@/views/user/permissions/index.vue"),
-        meta: { transition: "slide-right" },
-      },
-      {
-        path: "/roles",
-        name: "roles",
-        component: () => import("../views/user/roles/index.vue"),
-        meta: { transition: "slide-right" },
+        path: "/",
+        name: "loading",
+        component: () => import("../views/transition/index.vue"),
+        meta: { transition: 'slide-right' },
       },
     ],
   },
@@ -52,7 +46,6 @@ router.beforeEach((to, from, next) => {
   if (to.matched.some((record) => record)) {
     next();
   } else {
-    console.log("Not auth required");
     next();
   }
 });

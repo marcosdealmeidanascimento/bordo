@@ -170,12 +170,10 @@ async def permission(
 
 @router.post("/open/email")
 async def read_user_email(
-    *,
     db: AsyncSession = Depends(deps.get_db),
-    email: str = Body(...),
-    name: str = Body(""),
+    email: dict = Body(""),
 ) -> Any:
-    user_in = await repositories.user.get_by_email(db, email=email)
+    user_in = await repositories.user.get_by_email(db, email=email["email"])
     user = jsonable_encoder(user_in)
     if user == None:
         return 0
