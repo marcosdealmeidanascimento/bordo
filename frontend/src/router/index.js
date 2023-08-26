@@ -13,7 +13,7 @@ const routes = [
       { 
         path: '/home',
         name: 'home', 
-        component: () => import('../views/HelloWorld.vue'),
+        component: () => import('../views/home/Home.vue'),
         meta: { transition: 'slide-right' },
        },
       { 
@@ -33,7 +33,7 @@ const routes = [
   { 
     path: '/login',
     name: 'dashboard', 
-    component: () => import('../views/auth/Login23.vue'),
+    component: () => import('../views/auth/Login.vue'),
     meta: { transition: 'slide-right' },
    },  
 

@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import datetime, timedelta
 from typing import Any
 
 from fastapi import APIRouter, Body, Depends, HTTPException
@@ -37,11 +37,15 @@ async def login_access_token(
         raise HTTPException(status_code=400, detail="Inactive user")
     access_token_expires = timedelta(minutes=settings.
                                      ACCESS_TOKEN_EXPIRE_MINUTES)
+    
+    now = datetime.utcnow()
+    expires = now.timestamp() + access_token_expires.total_seconds()
     return {
         "access_token": security.
         create_access_token(user.id, expires_delta=access_token_expires),
         "token_type": "bearer",
-        "user": user
+        "user": user,
+        "expires": expires
     }
 
 
