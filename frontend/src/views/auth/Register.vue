@@ -1,25 +1,33 @@
 <template class="tBone">
+  <p class="text-5xl flex justify-content-center -my-5">
+    Register
+  </p>
   <section class="flex justify-content-center">
 
-    <form @submit.prevent="register" class="flex flex-column w-min">
+    <form @submit.prevent="register" class="flex flex-column w-min" :class="fadeout">
 
-      <label for="fullname" class="col-fixed mt-5">Full Name</label>
-      <InputText :autofocus=true v-model="fullname" placeholder="Full Name" required />
+      <label for="fullname" :class="fadeout" class="col-fixed mt-5">Full Name</label>
+      <InputText :autofocus=true :class="fadeout" v-model="fullname" placeholder="Full Name" required />
 
-      <label for="username" class="col-fixed mt-2">E-mail</label>
-      <InputText v-model="user" placeholder="user@example.com" required type="email" />
+      <label for="username" :class="fadeout" class="col-fixed mt-2">E-mail</label>
+      <InputText v-model="user" :class="fadeout" placeholder="user@example.com" required type="email" />
 
-      <label for="password" class="col-fixed mt-5">Password</label>
-      <Password v-model="pw" toggleMask required :class="invalidPw" />
+      <label for="password" :class="fadeout" class="col-fixed mt-5">Password</label>
+      <Password v-model="pw" toggleMask required :class="[invalidPw, fadeout]" />
 
-      <label for="password" class="col-fixed mt-2">Confirm Password</label>
-      <Password v-model="confpw" :feedback="false" toggleMask required :class="invalidPw" />
+      <label for="password" :class="fadeout" class="col-fixed mt-2">Confirm Password</label>
+      <Password v-model="confpw" :feedback="false" toggleMask required :class="[invalidPw, fadeout]" />
 
-      <Button label="Register" type="submit" class="mt-5" />
+      <Button :class="fadeout" label="Register" type="submit" class="mt-5" />
     </form>
   </section>
   <section class="flex justify-content-center -my-6">
-    <router-link class="p-primary" to="/login">Already have an account? Login here.</router-link>
+    <router-link :class="fadeout" class="p-primary" to="/login">Already have an account? Login here.</router-link>
+  </section>
+  <section class="flex justify-content-center">
+    <p :class="fadein" class="text-lg">
+      Account created with success!
+    </p>
   </section>
   <Toast />
 </template>
@@ -42,6 +50,8 @@ const pw = ref("");
 const confpw = ref("");
 const invalidPw = ref("");
 const invalidEmail = ref("");
+const fadeout = ref("")
+const fadein = ref("hidden")
 
 
 const register = async () => {
@@ -69,7 +79,17 @@ const register = async () => {
 
     const response = await apiClient.post("users/open", data)
 
-    router.push("/");
+    if (response !== undefined) {
+      setTimeout(() => {
+        fadeout.value = "hidden";
+        fadein.value = "fadeindown animation-duration-300"
+      }, 200);
+      setTimeout(() => {
+        router.push("/login");
+      }, 3000)
+
+    }
+
 
   }
 

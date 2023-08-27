@@ -49,7 +49,7 @@ def send_simple_message(email, token):
     password = 'nxufqqvaxpkmyflu'
     msg = EmailMessage()
     msg['Subject'] = 'Password Reset'
-    msg['From'] = email_address
+    msg['From'] = "LogBook App"
     msg['to'] = email['email']
     msg.set_content(
         f"""\

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import BaseLayout from "@/layout/BaseLayout.vue";
+import AuthLayout from "@/layout/AuthLayout.vue";
 const routes = [
   {
     path: "/",
@@ -26,28 +27,35 @@ const routes = [
   },
   {
     path: "/login",
-    name: "login",
-    component: () => import("../views/auth/Login.vue"),
-    meta: { transition: "slide-right" },
-  },
-  {
-    path: "/register",
-    name: "register",
-    component: () => import("../views/auth/Register.vue"),
-    meta: { transition: "slide-right" },
-  },
-  {
-    path: "/reset-password",
-    name: "reset",
-    component: () => import("../views/auth/ResetPassword.vue"),
-    meta: { transition: "slide-right" },
-  },
-  {
-    path: "/password-recovery",
-    name: "forgot",
-    component: () => import("../views/auth/Forgot.vue"),
-    meta: { transition: "slide-right" },
-  },
+    component: AuthLayout,
+    redirect: "login",
+    children: [
+      {
+        path: "/login",
+        name: "login",
+        component: () => import("../views/auth/Login.vue"),
+        meta: { transition: "slide-right" },
+      },
+      {
+        path: "/register",
+        name: "register",
+        component: () => import("../views/auth/Register.vue"),
+        meta: { transition: "slide-right" },
+      },
+      {
+        path: "/reset-password",
+        name: "reset",
+        component: () => import("../views/auth/ResetPassword.vue"),
+        meta: { transition: "slide-right" },
+      },
+      {
+        path: "/password-recovery",
+        name: "forgot",
+        component: () => import("../views/auth/Forgot.vue"),
+        meta: { transition: "slide-right" },
+      },
+    ]
+  }
 ];
 
 const router = createRouter({

@@ -1,6 +1,8 @@
 <template>
+  <p class="text-5xl flex justify-content-center -my-5">
+    Login
+  </p>
   <section class="flex justify-content-center">
-
     <form @submit.prevent="login" class="flex flex-column w-min">
 
       <label for="username" class="col-fixed">E-mail</label>
@@ -9,7 +11,7 @@
       <label for="password" class="col-fixed mt-5">Password</label>
       <Password v-model="pw" :class="invalid" :feedback="false" toggleMask required />
 
-      <Button label="Log In" type="submit" class="mt-5" />
+      <Button icon="pi pi-send" label="Log In" type="submit" class="mt-5" />
     </form>
   </section>
   <section class="flex flex-column align-items-center -my-6">
@@ -63,6 +65,9 @@ const login = async () => {
       },
       data: data,
     };
+
+    console.log(user.value);
+    console.log(pw.value);
 
     try {
       const userData = await axios(config);

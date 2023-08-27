@@ -1,8 +1,11 @@
 <template class="tBone">
+    <p class="text-5xl flex justify-content-center -my-5">
+        Enter your New Password
+    </p>
     <section class="flex justify-content-center">
 
         <form @submit.prevent="register" class="flex flex-column w-min">
-            
+
             <label for="password" class="col-fixed mt-5">Password</label>
             <Password v-model="pw" toggleMask required :class="invalidPw" />
 
@@ -54,17 +57,20 @@ const register = async () => {
         invalidPw.value = "p-invalid"
     } else {
         invalidPw.value = ""
+        const data = {
+            new_password: confpw.value,
+            token: tk.value,
+        }
+    
+        const response = await apiClient.post("reset-password", data)
+    
+        setTimeout(() => {
+            router.push("/login");
+        }, 3000)
+
     }
 
 
-    const data = {
-        new_password: confpw.value,
-        token: tk.value,
-    }
-
-    const response = await apiClient.post("reset-password", data)
-
-    router.push("/login");
 
 }
 
