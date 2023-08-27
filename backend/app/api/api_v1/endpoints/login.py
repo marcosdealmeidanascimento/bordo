@@ -105,10 +105,4 @@ async def reset_password(
     await db.commit()
     await db.refresh(user)
     
-    
-    # await db.execute(sql)
-    # await db.commit()
-    
-    
-
     return user

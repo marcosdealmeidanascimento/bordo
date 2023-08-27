@@ -6,14 +6,19 @@ from pydantic import UUID4, BaseModel, EmailStr
 # Shared properties
 class UserBase(BaseModel):
     email: Optional[EmailStr] = None
-    is_active: Optional[bool] = True
+    is_active: Optional[bool] = False
     full_name: Optional[str] = None
 
 
+class UserCreateNot(UserBase):
+    is_active : bool = False
+
+
 # Properties to receive via API on creation
-class UserCreate(UserBase):
+class UserCreate(UserCreateNot):
     email: EmailStr
     password: str
+
 
 
 # Properties to receive via API on update

@@ -4,10 +4,10 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.security import get_password_hash, verify_password
 from app.db.repositories.base import CRUDBase
 from app.db.models.user import User
-from app.db.schemas.user import UserCreate, UserUpdate
+from app.db.schemas.user import UserCreate, UserUpdate, UserCreateNot
 
 
-class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
+class CRUDUser(CRUDBase[User, UserCreateNot, UserUpdate]):
 
     async def get_by_email(self, db: AsyncSession, *,
                            email: str) -> Optional[User]:
@@ -20,6 +20,7 @@ class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
             email=obj_in.email,
             hashed_password=get_password_hash(obj_in.password),
             full_name=obj_in.full_name,
+            is_active=False
         )
         db.add(db_obj)
         await db.commit()
