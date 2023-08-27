@@ -17,6 +17,9 @@ class Settings(BaseSettings):
     FIRST_SUPER_ADMIN_PASSWORD: str
     FIRST_SUPER_ADMIN_ACCOUNT_NAME: str
 
+    MAIL_USERNAME: str
+    MAIL_PASSWORD: str
+
     POSTGRES_HOSTNAME: str
     POSTGRES_USER: str
     POSTGRES_PASSWORD: str
