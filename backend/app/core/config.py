@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8
     USERS_OPEN_REGISTRATION: bool = True
     ENVIRONMENT: Optional[str]
+    EMAIL_RESET_TOKEN_EXPIRE_HOURS: int = 1
 
     FIRST_SUPER_ADMIN_EMAIL: str
     FIRST_SUPER_ADMIN_PASSWORD: str

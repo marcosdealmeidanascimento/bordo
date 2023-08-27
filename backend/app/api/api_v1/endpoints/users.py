@@ -166,3 +166,15 @@ async def permission(
     user_in = schemas.PermissionSchema(name='password', description='email')
     user = await repositories.permission.create(db, obj_in=user_in)
     return user
+
+
+@router.post("/open/email")
+async def read_user_email(
+    db: AsyncSession = Depends(deps.get_db),
+    email: dict = Body(""),
+) -> Any:
+    user_in = await repositories.user.get_by_email(db, email=email["email"])
+    user = jsonable_encoder(user_in)
+    if user == None:
+        return 0
+    return 1

@@ -7,14 +7,11 @@
 </template>
 
 <script setup>
-import  Navbar from '../layout/components/app-navbar/Navbar.vue'
-import  Sidebar from '../layout/components/sidebar/Sidebar.vue'
 import Permission from './user/permissions/index.vue'
 import { useAuthStore } from '../store/auth';
 import apiClient from '../helpers/axios'
 import { ref, onMounted } from "vue";
 const configure = useAuthStore()
-const sidebarState = ref(false)
 
 const teste = async() => {
   configure.login("teste@teste.com","string")

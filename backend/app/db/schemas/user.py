@@ -28,6 +28,8 @@ class UserInDBBase(UserBase):
     class Config:
         orm_mode = True
 
+class UserPassReset(BaseModel):
+    reset_code: str
 
 # Additional properties to return via API
 class User(UserInDBBase):
