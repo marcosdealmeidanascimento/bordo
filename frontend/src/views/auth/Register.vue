@@ -85,11 +85,9 @@ const register = async () => {
         fadein.value = "fadeindown animation-duration-300"
       }, 200);
       setTimeout(() => {
-        router.push("/login");
+        // router.push("/login");
       }, 3000)
-
     }
-
 
   }
 

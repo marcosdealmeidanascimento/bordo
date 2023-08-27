@@ -28,11 +28,8 @@ def verify_password_reset_token(token: str) -> Optional[str]:
         return None
 
 
-
-
 def send_simple_message(email, token):
     import smtplib
-    import os
     from email.message import EmailMessage
     email_address = settings.MAIL_USERNAME
     password = settings.MAIL_PASSWORD
@@ -46,6 +43,31 @@ def send_simple_message(email, token):
 
             To reset your password click the link below:
             http://localhost:8081/reset-password?{token}&tk={token}
+
+        """
+    )
+
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+        smtp.login(email_address, password)
+        smtp.send_message(msg=msg)
+
+
+def send_confirmation(email, token):
+    import smtplib
+    from email.message import EmailMessage
+    email_address = settings.MAIL_USERNAME
+    password = settings.MAIL_PASSWORD
+    print(email)
+    msg = EmailMessage()
+    msg['Subject'] = 'Confirm Registration'
+    msg['From'] = "LogBook App"
+    msg['to'] = email
+    msg.set_content(
+        f"""\
+            Almost there, to confirm your account follow the steps below. If you didn't requested, no further action is needed.
+
+            To confirm your account click the link below:
+            http://localhost:8081/confirm?{token}&tk={token}
 
         """
     )

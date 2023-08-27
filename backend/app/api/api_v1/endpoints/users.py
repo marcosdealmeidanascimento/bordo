@@ -9,6 +9,12 @@ from app.db import repositories, models, schemas
 from app.api import deps
 from app.core.config import settings
 
+from app.utils import (
+    generate_password_reset_token,
+    verify_password_reset_token,
+    send_confirmation,
+)
+
 router = APIRouter()
 
 
@@ -105,9 +111,42 @@ async def create_user_open(
             status_code=400,
             detail="The user with this username already exists in the system",
         )
+    gprt = generate_password_reset_token(email=email)
+    send_confirmation(email, gprt)
+
     user_in = schemas.UserCreate(password=password, email=email,
                                  full_name=full_name)
     user = await repositories.user.create(db, obj_in=user_in)
+
+    return user
+
+
+@router.post("/confirm", response_model=schemas.User)
+async def confirm_account(
+    token: Any = Body(...),
+    db: AsyncSession = Depends(deps.get_db),
+) -> Any:
+    """
+    Confirm email
+    """
+    print(token)
+    email = verify_password_reset_token(token['token'])
+    print(email)
+    if not email:
+        raise HTTPException(status_code=400, detail="Invalid token")
+    user = await repositories.user.get_by_email(db, email=email)
+    if not user:
+        raise HTTPException(
+            status_code=404,
+            detail="The user with this username does not exist in the system.",
+        )
+
+    sql = f'UPDATE "user" SET is_active = true WHERE "id" = \'{user.id}\''
+
+    await db.execute(sql)
+    await db.commit()
+    await db.refresh(user)
+
     return user
 
 

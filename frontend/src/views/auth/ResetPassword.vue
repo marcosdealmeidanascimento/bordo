@@ -77,9 +77,7 @@ const register = async () => {
 
 
 onMounted(() => {
-    const url = new URL(window.location.href)
-    const searchParams = url.searchParams
-    tk.value = searchParams.get('tk');
+
 })
 
 </script>

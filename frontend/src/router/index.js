@@ -43,6 +43,12 @@ const routes = [
         meta: { transition: "slide-right" },
       },
       {
+        path: "/confirm",
+        name: "confirm",
+        component: () => import("../views/auth/Confirm.vue"),
+        meta: { transition: "slide-right" },
+      },
+      {
         path: "/reset-password",
         name: "reset",
         component: () => import("../views/auth/ResetPassword.vue"),
