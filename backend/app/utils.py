@@ -43,13 +43,24 @@ def verify_password_reset_token(token: str) -> Optional[str]:
 
 
 def send_simple_message(email, token):
-    import requests
-    response = requests.post(
-		"https://api.mailgun.net/v3/sandboxb3839c633abd4f39b95585ad7c931b31.mailgun.org/messages",
-		auth=("api", "38e4c9fffe1f81bb0a95ac3d64a02587-f0e50a42-e8f42ea5"),
-		data={"from": "marcos.201nascimento@gmail.com",
-			"to": [email["email"]],
-			"subject": "Reset Password",
-			"text": f"To reset your password http://localhost:8081/reset-password?tk={token}"})
+    import smtplib
+    from email.message import EmailMessage
+    email_address = 'marcos.201nascimento@gmail.com'
+    password = 'nxufqqvaxpkmyflu'
+    msg = EmailMessage()
+    msg['Subject'] = 'Password Reset'
+    msg['From'] = email_address
+    msg['to'] = email['email']
+    msg.set_content(
+        f"""\
+            A password reset was requested. If you didn't requested, no further action is needed.
 
-    return response
+            To reset your password click the link below:
+            http://localhost:8081/reset-password?{token}&tk={token}
+
+        """
+    )
+
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+        smtp.login(email_address, password)
+        smtp.send_message(msg=msg)
