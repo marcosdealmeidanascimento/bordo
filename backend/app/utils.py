@@ -30,23 +30,12 @@ def verify_password_reset_token(token: str) -> Optional[str]:
 
 
 
-# def send_simple_message():
-# 	return requests.post(
-# 		"https://api.mailgun.net/v3/YOUR_DOMAIN_NAME/messages",
-# 		auth=("api", "YOUR_API_KEY"),
-# 		data={"from": "Excited User <mailgun@YOUR_DOMAIN_NAME>",
-# 			"to": ["bar@example.com", "YOU@YOUR_DOMAIN_NAME"],
-# 			"subject": "Hello",
-# 			"text": "Testing some Mailgun awesomeness!"})
-
-
-
-
 def send_simple_message(email, token):
     import smtplib
+    import os
     from email.message import EmailMessage
-    email_address = 'marcos.201nascimento@gmail.com'
-    password = 'nxufqqvaxpkmyflu'
+    email_address = settings.MAIL_USERNAME
+    password = settings.MAIL_PASSWORD
     msg = EmailMessage()
     msg['Subject'] = 'Password Reset'
     msg['From'] = "LogBook App"

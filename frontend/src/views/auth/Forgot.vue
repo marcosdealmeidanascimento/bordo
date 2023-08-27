@@ -63,10 +63,11 @@ const reset = async () => {
             router.push("/login");
 
         }, 3000)
+    }else{
+        toast.add({ severity: 'error', summary: 'Account Not Found', detail: "There's no account registered with this email.", life: 3000 });
+        invalid.value = "p-invalid"
     }
 
-    toast.add({ severity: 'error', summary: 'Account Not Found', detail: "There's no account registered with this email.", life: 3000 });
-    invalid.value = "p-invalid"
 
 
 
