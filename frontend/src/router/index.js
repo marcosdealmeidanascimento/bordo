@@ -36,6 +36,18 @@ const routes = [
     component: () => import("../views/auth/Register.vue"),
     meta: { transition: "slide-right" },
   },
+  {
+    path: "/reset-password",
+    name: "reset",
+    component: () => import("../views/auth/ResetPassword.vue"),
+    meta: { transition: "slide-right" },
+  },
+  {
+    path: "/password-recovery",
+    name: "forgot",
+    component: () => import("../views/auth/Forgot.vue"),
+    meta: { transition: "slide-right" },
+  },
 ];
 
 const router = createRouter({

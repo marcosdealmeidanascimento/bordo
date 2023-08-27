@@ -26,6 +26,7 @@
 <script setup>
 import { useAuthStore } from '@/store/auth';
 import apiClient from '@/helpers/axios'
+import axios from 'axios'
 import { ref, onMounted } from "vue";
 import InputText from 'primevue/inputtext';
 import Toast from 'primevue/toast';
@@ -74,6 +75,8 @@ const register = async () => {
 
 
 }
+
+
 
 onMounted(() => {
 

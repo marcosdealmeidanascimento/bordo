@@ -15,7 +15,7 @@
   <section class="flex flex-column align-items-center -my-6">
     <router-link class="mb-2" style="color: var(--text-color)" to="/register">Don't hava an account? Register
       here</router-link>
-    <router-link class="my-2" style="color: var(--text-color)" to="">Forgot your password?</router-link>
+    <router-link class="my-2" style="color: var(--text-color)" to="/password-recovery">Forgot your password?</router-link>
   </section>
   <Toast />
 </template>
@@ -27,6 +27,7 @@ import InputText from 'primevue/inputtext';
 import Toast from 'primevue/toast';
 import { useToast } from 'primevue/usetoast';
 import { useRouter } from 'vue-router'
+import axios from 'axios'
 
 const toast = useToast();
 const router = useRouter();
@@ -43,12 +44,33 @@ const show = () => {
 
 const login = async () => {
   if (user.value !== "" && pw.value !== "") {
-    response.value = await configure.login(user.value, pw.value);
-    if (response.value == 0) {
+
+    var data = {
+      grant_type: "",
+      username: user.value,
+      password: pw.value,
+      scope: "",
+      client_id: "",
+      client_secret: "",
+    };
+
+    var config = {
+      method: "post",
+      url: import.meta.env.VITE_SERVER_NAME + "login/access-token",
+      headers: {
+        accept: "application/json",
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      data: data,
+    };
+
+    try {
+      const userData = await axios(config);
+      response.value = await configure.login(user.value, pw.value);
+      router.push("/");
+    } catch(err) {
       invalid.value = "p-invalid";
       show();
-    } else {
-      router.push("/");
     }
 
   }

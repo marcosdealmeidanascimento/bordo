@@ -3,6 +3,8 @@ from typing import Any
 
 from fastapi import APIRouter, Body, Depends, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
+from fastapi.encoders import jsonable_encoder
+from pydantic.networks import EmailStr
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import repositories, models, schemas
@@ -13,6 +15,7 @@ from app.core.security import get_password_hash
 from app.utils import (
     generate_password_reset_token,
     verify_password_reset_token,
+    send_simple_message,
 )
 
 router = APIRouter()
@@ -54,13 +57,13 @@ async def test_token(current_user: models.User
     return current_user
 
 
-@router.post("/password-recovery/{email}", response_model=schemas.User)
-async def recover_password(email: str,
+@router.post("/password-recovery",)
+async def recover_password(email: Any = Body(...),
                            db: AsyncSession = Depends(deps.get_db)) -> Any:
     """
     Password Recovery
     """
-    user = await repositories.user.get_by_email(db, email=email)
+    user = await repositories.user.get_by_email(db, email=email["email"])
 
     if not user:
         raise HTTPException(
@@ -68,8 +71,9 @@ async def recover_password(email: str,
             detail="The user with this username does not exist in the system.",
         )
     # password_reset_token = generate_password_reset_token(email=email)
-    generate_password_reset_token(email=email)
-    return {"msg": "Password recovery email sent"}
+    gprt = generate_password_reset_token(email=email["email"])
+    send_simple_message(email, gprt)
+    return gprt
 
 
 @router.post("/reset-password/", response_model=schemas.User)
@@ -94,5 +98,10 @@ async def reset_password(
         raise HTTPException(status_code=400, detail="Inactive user")
     hashed_password = get_password_hash(new_password)
     user.hashed_password = hashed_password
-    db.add(user)
-    return {"msg": "Password updated successfully"}
+    
+    
+    sql = f'UPDATE "user" SET hashed_password = \'{hashed_password}\' WHERE "id" = \'{user.id}\''
+    await db.execute(sql)
+    await db.commit()
+
+    return user
