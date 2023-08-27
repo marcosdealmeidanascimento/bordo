@@ -99,9 +99,16 @@ async def reset_password(
     hashed_password = get_password_hash(new_password)
     user.hashed_password = hashed_password
     
-    
     sql = f'UPDATE "user" SET hashed_password = \'{hashed_password}\' WHERE "id" = \'{user.id}\''
+
     await db.execute(sql)
     await db.commit()
+    await db.refresh(user)
+    
+    
+    # await db.execute(sql)
+    # await db.commit()
+    
+    
 
     return user
