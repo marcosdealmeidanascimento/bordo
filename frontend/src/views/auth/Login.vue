@@ -15,7 +15,7 @@
     </form>
   </section>
   <section class="flex flex-column align-items-center -my-6">
-    <router-link class="mb-2" style="color: var(--text-color)" to="/register">Don't hava an account? Register
+    <router-link class="mb-2" style="color: var(--text-color)" to="/register">Don't have an account? Register
       here</router-link>
     <router-link class="my-2" style="color: var(--text-color)" to="/password-recovery">Forgot your password?</router-link>
   </section>
@@ -65,9 +65,6 @@ const login = async () => {
       },
       data: data,
     };
-
-    console.log(user.value);
-    console.log(pw.value);
 
     try {
       const userData = await axios(config);

@@ -10,7 +10,7 @@
       <InputText :autofocus=true :class="fadeout" v-model="fullname" placeholder="Full Name" required />
 
       <label for="username" :class="fadeout" class="col-fixed mt-2">E-mail</label>
-      <InputText v-model="user" :class="fadeout" placeholder="user@example.com" required type="email" />
+      <InputText v-model="user" :class="[fadeout, invalidEmail]" placeholder="user@example.com" required type="email" />
 
       <label for="password" :class="fadeout" class="col-fixed mt-5">Password</label>
       <Password v-model="pw" toggleMask required :class="[invalidPw, fadeout]" />
@@ -52,44 +52,52 @@ const invalidPw = ref("");
 const invalidEmail = ref("");
 const fadeout = ref("")
 const fadein = ref("hidden")
-
+let response = ref()
 
 const register = async () => {
-  if (pw.value.length < 6 || pw.value.length > 20) {
-    toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Password length must be greater than 6 and less than 20', life: 3000 });
-    invalidPw.value = "p-invalid"
-
-  } else if (pw.value !== confpw.value) {
-    toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Passwords must be equal', life: 3000 });
-    invalidPw.value = "p-invalid"
-  } else {
-    invalidPw.value = ""
-  }
-
   if (!user.value.includes('.com')) {
     toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Not a valid E-mail', life: 3000 });
     invalidEmail.value = "p-invalid"
   } else {
+    invalidEmail.value = ""
+  }
 
-    const data = {
-      full_name: fullname.value,
-      password: confpw.value,
-      email: user.value,
-    }
-
-    const response = await apiClient.post("users/open", data)
-
-    if (response !== undefined) {
-      setTimeout(() => {
-        fadeout.value = "hidden";
-        fadein.value = "fadeindown animation-duration-300"
-      }, 200);
-      setTimeout(() => {
-        // router.push("/login");
-      }, 3000)
+  if (pw.value.length < 6 || pw.value.length > 20) {
+    toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Password length must be greater than 6 and less than 20', life: 3000 });
+    invalidPw.value = "p-invalid"
+  } else {
+    if (pw.value !== confpw.value) {
+      toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'Passwords must be equal', life: 3000 });
+      invalidPw.value = "p-invalid"
+    } else {
+      invalidPw.value = ""
+      const data = {
+        full_name: fullname.value,
+        password: confpw.value,
+        email: user.value,
+      }
+      response = await apiClient.post("users/open", data)
+      if (response !== undefined && invalidPw.value == "" && invalidEmail.value == "") {
+        setTimeout(() => {
+          fadeout.value = "hidden";
+          fadein.value = "fadeindown animation-duration-300"
+        }, 200);
+        setTimeout(() => {
+          router.push("/login");
+        }, 1800)
+      }
     }
 
   }
+
+
+
+
+
+
+
+
+
 
 
 }

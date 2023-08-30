@@ -40091,3 +40091,7 @@ WHERE "user".id = ?
 2023-08-27 18:39:28,749 - INFO - uvicorn.error - Waiting for application shutdown.
 2023-08-27 18:39:28,749 - INFO - uvicorn.error - Application shutdown complete.
 2023-08-27 18:39:28,750 - INFO - uvicorn.error - Finished server process [21]
+2023-08-30 19:20:12,172 - INFO - app.main - ---Starting App---
+2023-08-30 19:20:13,058 - INFO - uvicorn.error - Started server process [20]
+2023-08-30 19:20:13,077 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-30 19:20:13,081 - INFO - uvicorn.error - Application startup complete.
