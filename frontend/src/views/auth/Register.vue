@@ -76,15 +76,21 @@ const register = async () => {
         password: confpw.value,
         email: user.value,
       }
+
       response = await apiClient.post("users/open", data)
+
       if (response !== undefined && invalidPw.value == "" && invalidEmail.value == "") {
         setTimeout(() => {
           fadeout.value = "hidden";
           fadein.value = "fadeindown animation-duration-300"
-        }, 200);
+        }, 300);
+        toast.add({ severity: 'success', summary: 'Success', detail: 'Account created with success!', life: 3000 });
         setTimeout(() => {
           router.push("/login");
-        }, 1800)
+        }, 3800)
+      } else if (response === undefined && invalidPw.value == "" && invalidEmail.value == "") {
+        toast.add({ severity: 'error', summary: 'Failed to Register', detail: 'E-mail already in use', life: 3000 });
+        invalidEmail.value = "p-invalid"
       }
     }
 

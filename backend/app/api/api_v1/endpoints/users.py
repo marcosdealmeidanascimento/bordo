@@ -108,7 +108,7 @@ async def create_user_open(
     user = await repositories.user.get_by_email(db, email=email)
     if user:
         raise HTTPException(
-            status_code=400,
+            status_code=409,
             detail="The user with this username already exists in the system",
         )
     gprt = generate_password_reset_token(email=email)

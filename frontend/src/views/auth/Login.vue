@@ -69,7 +69,10 @@ const login = async () => {
     try {
       const userData = await axios(config);
       response.value = await configure.login(user.value, pw.value);
-      router.push("/");
+      toast.add({ severity: 'success', summary: 'Logged In', detail: 'Welcome!', life: 3000 });
+      setTimeout(() => {
+        router.push("/");
+      }, 3000);
     } catch(err) {
       invalid.value = "p-invalid";
       show();

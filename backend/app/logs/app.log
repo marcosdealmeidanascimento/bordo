@@ -40095,3 +40095,138 @@ WHERE "user".id = ?
 2023-08-30 19:20:13,058 - INFO - uvicorn.error - Started server process [20]
 2023-08-30 19:20:13,077 - INFO - uvicorn.error - Waiting for application startup.
 2023-08-30 19:20:13,081 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:19:22,901 - INFO - app.main - ---Starting App---
+2023-08-31 22:19:22,953 - INFO - uvicorn.error - Started server process [16]
+2023-08-31 22:19:22,954 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-31 22:19:22,954 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:19:40,194 - INFO - uvicorn.error - Shutting down
+2023-08-31 22:19:40,295 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-31 22:19:40,296 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-31 22:19:40,296 - INFO - uvicorn.error - Finished server process [16]
+2023-08-31 22:19:41,867 - INFO - app.main - ---Starting App---
+2023-08-31 22:19:41,910 - INFO - uvicorn.error - Started server process [18]
+2023-08-31 22:19:41,910 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-31 22:19:41,911 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:21:09,163 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-31 22:21:09,163 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:09,171 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-31 22:21:09,171 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:09,180 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-31 22:21:09,180 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:09,187 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:21:09,189 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:21:09,190 - INFO - sqlalchemy.engine.Engine - [generated in 0.00048s] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:21:09,199 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:21:09,202 - ERROR - uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./app/api/api_v1/endpoints/users.py", line 110, in create_user_open
+    raise HTTPException(
+TypeError: __init__() got an unexpected keyword argument 'user'
+2023-08-31 22:21:39,076 - INFO - uvicorn.error - Shutting down
+2023-08-31 22:21:39,177 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-31 22:21:39,177 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-31 22:21:39,178 - INFO - uvicorn.error - Finished server process [18]
+2023-08-31 22:21:40,891 - INFO - app.main - ---Starting App---
+2023-08-31 22:21:41,006 - INFO - uvicorn.error - Started server process [24]
+2023-08-31 22:21:41,007 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-31 22:21:41,008 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:21:47,863 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-31 22:21:47,864 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:47,872 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-31 22:21:47,872 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:47,882 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-31 22:21:47,882 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:21:47,889 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:21:47,892 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:21:47,892 - INFO - sqlalchemy.engine.Engine - [generated in 0.00068s] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:21:47,901 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:22:13,381 - INFO - uvicorn.error - Shutting down
+2023-08-31 22:22:13,482 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-31 22:22:13,483 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-31 22:22:13,483 - INFO - uvicorn.error - Finished server process [24]
+2023-08-31 22:22:14,580 - INFO - app.main - ---Starting App---
+2023-08-31 22:22:14,625 - INFO - uvicorn.error - Started server process [30]
+2023-08-31 22:22:14,626 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-31 22:22:14,626 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:22:17,755 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-31 22:22:17,756 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:22:17,763 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-31 22:22:17,764 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:22:17,773 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-31 22:22:17,774 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:22:17,781 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:22:17,783 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:22:17,783 - INFO - sqlalchemy.engine.Engine - [generated in 0.00050s] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:22:17,792 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:22:35,710 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:22:35,711 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:22:35,711 - INFO - sqlalchemy.engine.Engine - [cached since 17.93s ago] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:22:35,718 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:23:20,273 - INFO - uvicorn.error - Shutting down
+2023-08-31 22:23:20,374 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-31 22:23:20,374 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-31 22:23:20,375 - INFO - uvicorn.error - Finished server process [30]
+2023-08-31 22:23:21,948 - INFO - app.main - ---Starting App---
+2023-08-31 22:23:21,994 - INFO - uvicorn.error - Started server process [36]
+2023-08-31 22:23:21,994 - INFO - uvicorn.error - Waiting for application startup.
+2023-08-31 22:23:21,995 - INFO - uvicorn.error - Application startup complete.
+2023-08-31 22:23:45,782 - INFO - sqlalchemy.engine.Engine - select version()
+2023-08-31 22:23:45,782 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:23:45,790 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-08-31 22:23:45,790 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:23:45,798 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-08-31 22:23:45,799 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-08-31 22:23:45,805 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:23:45,807 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:23:45,808 - INFO - sqlalchemy.engine.Engine - [generated in 0.00055s] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:23:45,816 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:24:20,105 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-08-31 22:24:20,106 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-08-31 22:24:20,106 - INFO - sqlalchemy.engine.Engine - [cached since 34.3s ago] ('marcos.800nascimento@gmail.com',)
+2023-08-31 22:24:20,111 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-08-31 22:25:52,532 - INFO - uvicorn.error - Shutting down
+2023-08-31 22:25:52,633 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-08-31 22:25:52,633 - INFO - uvicorn.error - Application shutdown complete.
+2023-08-31 22:25:52,634 - INFO - uvicorn.error - Finished server process [36]
