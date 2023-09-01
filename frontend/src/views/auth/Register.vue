@@ -1,4 +1,4 @@
-<template class="tBone">
+<template>
   <p class="text-5xl flex justify-content-center -my-5">
     Register
   </p>
@@ -32,9 +32,7 @@
   <Toast />
 </template>
 <script setup>
-import { useAuthStore } from '@/store/auth';
 import apiClient from '@/helpers/axios'
-import axios from 'axios'
 import { ref, onMounted } from "vue";
 import InputText from 'primevue/inputtext';
 import Toast from 'primevue/toast';
@@ -52,7 +50,7 @@ const invalidPw = ref("");
 const invalidEmail = ref("");
 const fadeout = ref("")
 const fadein = ref("hidden")
-let response = ref()
+let response = ref("")
 
 const register = async () => {
   if (!user.value.includes('.com')) {

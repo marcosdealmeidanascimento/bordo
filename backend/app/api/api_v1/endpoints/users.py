@@ -121,6 +121,33 @@ async def create_user_open(
     return user
 
 
+@router.post("/resend-confirmation", response_model=schemas.User)
+async def resend_confirmation(
+    db: AsyncSession = Depends(deps.get_db),
+    email: Any = Body(...),
+) -> Any:
+    
+    """
+    Create new user without the need to be logged in.
+    """
+    if not settings.USERS_OPEN_REGISTRATION:
+        raise HTTPException(
+            status_code=403,
+            detail="Open user registration is forbidden on this server",
+        )
+    user = await repositories.user.get_by_email(db, email=email['email'])
+    if not user:
+        raise HTTPException(
+            status_code=404,
+            detail="The user with this username was not found in the system",
+        )
+    print(jsonable_encoder(user))
+    gprt = generate_password_reset_token(email=email['email'])
+    send_confirmation(email['email'], gprt)
+
+    return user
+
+
 @router.post("/confirm", response_model=schemas.User)
 async def confirm_account(
     token: Any = Body(...),
@@ -129,9 +156,7 @@ async def confirm_account(
     """
     Confirm email
     """
-    print(token)
     email = verify_password_reset_token(token['token'])
-    print(email)
     if not email:
         raise HTTPException(status_code=400, detail="Invalid token")
     user = await repositories.user.get_by_email(db, email=email)
