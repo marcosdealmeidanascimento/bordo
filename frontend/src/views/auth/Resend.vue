@@ -1,6 +1,6 @@
 <template>
     <p class="text-5xl flex justify-content-center -my-5">
-        Resend E-mail Confirmation to {{ email.email }}
+        Resend E-mail Confirmation
     </p>
     <section class="flex justify-content-center">
         <form @submit.prevent="resend_confirmation" class="flex flex-column w-min">
