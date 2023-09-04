@@ -82,4 +82,6 @@ And fill in `upgrade` and `downgrade` methods. For more information see
 
 
 ## Project Layout
-
+
+
+## Quasar vue3
