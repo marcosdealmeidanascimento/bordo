@@ -42,7 +42,7 @@ def send_simple_message(email, token):
             A password reset was requested. If you didn't requested, no further action is needed.
 
             To reset your password click the link below:
-            http://localhost:8081/reset-password?{token}&tk={token}
+            http://127.0.0.1/reset-password?{token}&tk={token}
 
         """
     )
@@ -67,7 +67,7 @@ def send_confirmation(email, token):
             Almost there, to confirm your account follow the steps below. If you didn't requested, no further action is needed.
 
             To confirm your account click the link below:
-            http://localhost:8081/confirm?{token}&tk={token}
+            http://127.0.0.1/confirm?{token}&tk={token}
 
         """
     )

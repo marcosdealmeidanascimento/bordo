@@ -41888,3 +41888,51 @@ FROM "user"
 WHERE "user".id = ?
 2023-09-01 14:30:44,863 - INFO - sqlalchemy.engine.Engine - [cached since 1527s ago] (UUID('334ec5b0-1df7-42de-b9a3-16401b1af5ff'),)
 2023-09-01 14:30:44,870 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-09-01 15:21:12,517 - INFO - app.main - ---Starting App---
+2023-09-01 15:21:12,993 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 15:21:13,663 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 15:21:13,664 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 15:47:27,552 - INFO - app.main - ---Starting App---
+2023-09-01 15:47:27,610 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 15:47:27,611 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 15:47:27,612 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 15:53:02,630 - INFO - app.main - ---Starting App---
+2023-09-01 15:53:02,676 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 15:53:02,677 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 15:53:02,677 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 15:57:47,826 - INFO - app.main - ---Starting App---
+2023-09-01 15:57:47,876 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 15:57:47,877 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 15:57:47,878 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 16:37:13,069 - INFO - app.main - ---Starting App---
+2023-09-01 16:37:13,129 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 16:37:13,129 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 16:37:13,130 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 17:07:51,872 - INFO - app.main - ---Starting App---
+2023-09-01 17:07:51,921 - INFO - uvicorn.error - Started server process [9]
+2023-09-01 17:07:51,921 - INFO - uvicorn.error - Waiting for application startup.
+2023-09-01 17:07:51,922 - INFO - uvicorn.error - Application startup complete.
+2023-09-01 17:12:30,305 - INFO - sqlalchemy.engine.Engine - select version()
+2023-09-01 17:12:30,306 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-09-01 17:12:30,314 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2023-09-01 17:12:30,314 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-09-01 17:12:30,323 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2023-09-01 17:12:30,324 - INFO - sqlalchemy.engine.Engine - [raw sql] ()
+2023-09-01 17:12:30,330 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-09-01 17:12:30,332 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = ?
+2023-09-01 17:12:30,332 - INFO - sqlalchemy.engine.Engine - [generated in 0.00054s] ('marcos.800nascimento@gmail.com',)
+2023-09-01 17:12:34,466 - INFO - sqlalchemy.engine.Engine - INSERT INTO "user" (id, full_name, email, hashed_password, is_active, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)
+2023-09-01 17:12:34,467 - INFO - sqlalchemy.engine.Engine - [generated in 0.00072s] (UUID('18b29b7d-cd61-4d82-bfc6-e2dce9d99240'), 'marcos', 'marcos.800nascimento@gmail.com', '$2b$12$eXhkTLboA63urFhbgdlo0uIXbMN.T8OaZpYhGP4qeEfiW9NBs3XgG', False, datetime.datetime(2023, 9, 1, 17, 12, 34, 466465), datetime.datetime(2023, 9, 1, 17, 12, 34, 466470))
+2023-09-01 17:12:34,482 - INFO - sqlalchemy.engine.Engine - COMMIT
+2023-09-01 17:12:34,497 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2023-09-01 17:12:34,498 - INFO - sqlalchemy.engine.Engine - SELECT "user".id, "user".full_name, "user".email, "user".hashed_password, "user".is_active, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = ?
+2023-09-01 17:12:34,499 - INFO - sqlalchemy.engine.Engine - [generated in 0.00043s] (UUID('18b29b7d-cd61-4d82-bfc6-e2dce9d99240'),)
+2023-09-01 17:12:34,505 - INFO - sqlalchemy.engine.Engine - ROLLBACK
+2023-09-01 17:12:55,516 - INFO - uvicorn.error - Shutting down
+2023-09-01 17:12:55,617 - INFO - uvicorn.error - Waiting for application shutdown.
+2023-09-01 17:12:55,618 - INFO - uvicorn.error - Application shutdown complete.
+2023-09-01 17:12:55,618 - INFO - uvicorn.error - Finished server process [9]
