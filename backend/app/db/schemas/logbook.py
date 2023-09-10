@@ -1,7 +1,6 @@
 from typing import List, Optional # noqa: F401, E261
 # from datetime import datetime
 from pydantic import UUID4, BaseModel, EmailStr
-from .user import User
 
 
 # Shared properties

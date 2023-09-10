@@ -1,7 +1,6 @@
 from typing import List, Optional # noqa: F401, E261
 import datetime
 from pydantic import UUID4, BaseModel, EmailStr
-from .post import Post
 
 # Shared properties
 class PostBase(BaseModel):
