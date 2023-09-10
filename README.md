@@ -6,7 +6,8 @@
 - **Vue.js**
 - Postgres
 - SqlAlchemy with Alembic for migrations
-- Docker compose for easier development
+- Docker compose for easier development
+
 
 ## Development
 
@@ -18,7 +19,7 @@ Starting the project with hot-reloading enabled
 (the first time it will take a while):
 
 ```bash
-docker-compose up -- build -d
+docker-compose up --build -d
 ```
 
 To run the alembic migrations (for the users table):
@@ -28,7 +29,8 @@ docker-compose exec web alembic upgrade head
 ```
 
 And navigate to http://localhost:8000
-
+
+
 
 **Docs**
 http://localhost:8000/docs
@@ -65,7 +67,8 @@ npm run dev
 
 ## Migrations
 
-Migrations are run using alembic. To run all migrations:
+Migrations are run using alembic. To run all migrations:
+
 
 To create a new migration:
 
