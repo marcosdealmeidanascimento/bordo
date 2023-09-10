@@ -1,5 +1,4 @@
 from typing import Any, Dict, Optional, Union, List
-from backend.app.db.schemas.post import PostCreate
 from sqlalchemy import select, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.security import get_password_hash, verify_password
