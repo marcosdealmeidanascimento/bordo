@@ -21,7 +21,7 @@ class Post(Base):
         ForeignKey("user.id", ondelete="CASCADE"),
         nullable=False,
     )
-    logbook_id = Column(Integer, ForeignKey("logbook_id", ondelete="CASCADE"), nullable=False )
+    logbook_id = Column(Integer, ForeignKey("logbook.id", ondelete="CASCADE"), nullable=False)
 
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     updated_at = Column(
