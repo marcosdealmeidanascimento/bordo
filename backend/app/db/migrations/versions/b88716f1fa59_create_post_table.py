@@ -1,8 +1,8 @@
-"""create activity table
+"""create post table
 
-Revision ID: 1812da51ff78
+Revision ID: b88716f1fa59
 Revises: f8aef32a4435
-Create Date: 2023-08-25 16:07:32.957847
+Create Date: 2023-09-10 14:21:50.370017
 
 """
 from alembic import op
@@ -11,7 +11,7 @@ from sqlalchemy.dialects import postgresql
 
 
 # revision identifiers, used by Alembic.
-revision = '1812da51ff78'
+revision = 'b88716f1fa59'
 down_revision = 'f8aef32a4435'
 branch_labels = None
 depends_on = None
@@ -19,12 +19,11 @@ depends_on = None
 
 def upgrade() -> None:
     op.create_table(
-        "activity",
+        "post",
         sa.Column("id", sa.Integer, nullable=False),
-        sa.Column("description", sa.Text(), nullable=False),
-        sa.Column("start_time", sa.Time(), nullable=False),
-        sa.Column("category_id", sa.Integer, nullable=False),
-        sa.Column("completion_time", sa.Time(), nullable=False),
+        sa.Column("title", sa.String(length=255), nullable=False),
+        sa.Column("description", sa.String(length=255), nullable=True),
+        sa.Column("date", sa.Date(), nullable=True),
         sa.Column("user_id", postgresql.UUID(as_uuid=True), nullable=False),
         sa.Column("logbook_id", sa.Integer, nullable=False),
         sa.Column("created_at", sa.DateTime(), nullable=True),
@@ -32,10 +31,8 @@ def upgrade() -> None:
         sa.PrimaryKeyConstraint("id"),
         sa.ForeignKeyConstraint(["user_id"], ["user.id"],),
         sa.ForeignKeyConstraint(["logbook_id"], ["logbook.id"],),
-        sa.ForeignKeyConstraint(["category_id"], ["category.id"],),
     )
 
 
 def downgrade() -> None:
-    op.drop_table("activity")
-
+    op.drop_table("post")
