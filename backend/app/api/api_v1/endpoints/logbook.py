@@ -48,7 +48,7 @@ async def create_logbook(
 
 
 @router.get("/{id}", response_model=schemas.Logbook)
-async def read_user_by_id(
+async def read_logbook_by_id(
     logbook_id: int,
     db: AsyncSession = Depends(deps.get_db),
     _: models.Logbook = Depends(deps.get_current_active_superuser),

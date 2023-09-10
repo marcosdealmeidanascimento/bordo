@@ -1,30 +1,29 @@
 from typing import List, Optional # noqa: F401, E261
-# from datetime import datetime
+import datetime
 from pydantic import UUID4, BaseModel, EmailStr
 
-
 # Shared properties
-class LogbookBase(BaseModel):
-    name: str = None
+class PostBase(BaseModel):
+    title: str = None
     description: Optional[str] = None
+    date: Optional[datetime.date] = None
     user_id: UUID4 = None
-
+    logbook_id: int = None
 
 # Properties to receive via API on creation
-class LogbookCreate(LogbookBase):
-    name: str = None
+class PostCreate(PostBase):
+    title: str = None
     description: Optional[str] = None
+    date: Optional[datetime.date] = None
     user_id: UUID4 = None
+    logbook_id: int = None
 
-
-# Properties to receive via API on update
-class LogbookUpdate(LogbookBase):
-    name: Optional[str] = None
+class PostUpdate(PostBase):
+    title: str = None
     description: Optional[str] = None
-    user_id: Optional[UUID4] = None
+    date: Optional[datetime.date] = None
 
-
-class LogbookInDBBase(LogbookBase):
+class PostInDBBase(PostBase):
     id: int
     # created_at: datetime
     # updated_at: datetime
@@ -33,10 +32,10 @@ class LogbookInDBBase(LogbookBase):
 
 
 # Additional properties to return via API
-class Logbook(LogbookInDBBase):
-    pass
+class Post(PostInDBBase):
+    pass 
 
 
 # Additional properties stored in DB
-class LogbookInDB(LogbookInDBBase):
+class PostInDB(PostInDBBase):
     pass

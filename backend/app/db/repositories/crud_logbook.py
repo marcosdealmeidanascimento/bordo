@@ -27,7 +27,7 @@ class CRUDLogbook(CRUDBase[Logbook, LogbookCreate, LogbookUpdate]):
         return result.scalars().first()
     
 
-    async def update(seld, db: AsyncSession, *, db_obj: Logbook, obj_in: Union[LogbookUpdate, Dict[str, any]]) -> Logbook:
+    async def update(self, db: AsyncSession, *, db_obj: Logbook, obj_in: Union[LogbookUpdate, Dict[str, any]]) -> Logbook:
         if isinstance(obj_in, dict):
             update_data = obj_in
         else:

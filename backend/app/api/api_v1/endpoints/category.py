@@ -48,7 +48,7 @@ async def create_category(
 
 
 @router.get("/{id}", response_model=schemas.Category)
-async def read_user_by_id(
+async def read_category_by_id(
     category_id: int,
     db: AsyncSession = Depends(deps.get_db),
     _: models.Category = Depends(deps.get_current_active_superuser),
