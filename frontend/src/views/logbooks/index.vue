@@ -33,6 +33,24 @@
             </template>
         </Column>
     </DataTable>
+    <div class="grid">
+        <div class="col-6 p-3" v-for="logbook in logbooks">
+            <Card style="width: 100%;">
+                <template #title>
+                    {{ logbook.name }}
+                </template>
+                <template #content>
+                    <p v-if="logbook.description">
+                        {{ logbook.description }}
+                    </p>
+                    <p style="opacity: 50%; font-style: italic;" v-else="logbook.description">
+                        No description
+                    </p>
+
+                </template>
+            </Card>
+        </div>
+    </div>
     <Toast />
     <ConfirmDialog></ConfirmDialog>
 </template>
@@ -40,6 +58,8 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import apiClient from '@/helpers/axios'
+
+const flex = ref("display: flex;")
 
 import { useConfirm } from "primevue/useconfirm";
 const confirm = useConfirm();
