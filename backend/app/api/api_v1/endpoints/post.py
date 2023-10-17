@@ -74,14 +74,14 @@ async def update_post(
 
 @router.delete("/{post_id}", response_model=schemas.Post)
 async def delete_post(
-    db: AsyncSession = Depends(deps.get_db), *, id: int,
+    db: AsyncSession = Depends(deps.get_db), *, post_id: int,
 ) -> Any:
     
-    post = await repositories.post.get(db, id=id)
+    post = await repositories.post.get(db, id=post_id)
     if not post:
         raise HTTPException(
             status_code=404,
             detail="A post with this id does not exists",
         )
-    post = await repositories.post.remove(db=db, id=id)
+    post = await repositories.post.remove(db=db, id=post_id)
     return post

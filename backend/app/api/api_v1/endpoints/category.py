@@ -93,8 +93,8 @@ async def update_category(
 
 @router.delete("/{category_id}", response_model=schemas.Category)
 async def delete_category(
-    db: AsyncSession = Depends(deps.get_db), *, id: int,
+    db: AsyncSession = Depends(deps.get_db), *, category_id: int,
 ) -> Any:
 
-    category = await repositories.category.remove(db=db, id=id)
+    category = await repositories.category.remove(db=db, id=category_id)
     return category
