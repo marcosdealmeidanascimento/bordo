@@ -1,5 +1,10 @@
 <template>
   <Button label="Logout" @click="logout" class="mt-5" />
+  <br>
+  <br>
+  <router-link to="/category">
+    <Button label="Category"></Button>
+  </router-link>
 </template>
 <script setup>
 import { useAuthStore } from '@/store/auth';

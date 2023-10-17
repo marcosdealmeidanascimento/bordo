@@ -96,14 +96,6 @@ const register = async () => {
 
 
 
-
-
-
-
-
-
-
-
 }
 
 

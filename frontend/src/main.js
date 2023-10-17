@@ -10,10 +10,11 @@ import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 // import 'primevue/resources/themes/tailwind-light/theme.css';
 // import 'primevue/resources/themes/nano/theme.css';
-import InputText from 'primevue/inputtext';
 import { createI18n } from 'vue-i18n'
 import messages from './helpers/locale/message.js'
 import router from './router'
+import InputText from 'primevue/inputtext';
+import Textarea from 'primevue/textarea';
 import DataTable from 'primevue/datatable';
 import Toolbar from 'primevue/toolbar';
 import ConfirmationService from 'primevue/confirmationservice';
@@ -36,6 +37,7 @@ app.use(ToastService);
 app.component('Button', Button);
 app.component('Card', Card);
 app.component('InputText', InputText);
+app.component('Textarea', Textarea);
 app.component('Password', Password);
 app.component('Toolbar', Toolbar);
 app.component('DataTable', DataTable);

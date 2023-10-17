@@ -23,6 +23,16 @@ const routes = [
         component: () => import("../views/transition/index.vue"),
         meta: { transition: 'slide-right' },
       },
+      {
+        path: "/category",
+        name: "category",
+        component: () => import("../views/category/index.vue"),
+      },
+      {
+        path: "/logbooks",
+        name: "logbooks",
+        component: () => import("../views/logbooks/index.vue"),
+      }
     ],
   },
   {
