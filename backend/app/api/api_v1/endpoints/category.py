@@ -47,7 +47,7 @@ async def create_category(
 
 
 
-@router.get("/{id}", response_model=schemas.Category)
+@router.get("/{category_id}", response_model=schemas.Category)
 async def read_category_by_id(
     category_id: int,
     db: AsyncSession = Depends(deps.get_db),
@@ -61,7 +61,7 @@ async def read_category_by_id(
     return category
 
 
-@router.put("/{id}", response_model=schemas.Category)
+@router.put("/{category_id}", response_model=schemas.Category)
 async def update_category(
     *,
     db: AsyncSession = Depends(deps.get_db),
@@ -73,7 +73,7 @@ async def update_category(
     Update a category.
     """
     category = await repositories.category.get_by_name(db, name=category_in.name)
-    if category:
+    if category and category.id != category_id:
         raise HTTPException(
             status_code=400,
             detail="The category with this name already exists in the system.",
@@ -91,7 +91,7 @@ async def update_category(
 
 
 
-@router.delete("/{id}", response_model=schemas.Category)
+@router.delete("/{category_id}", response_model=schemas.Category)
 async def delete_category(
     db: AsyncSession = Depends(deps.get_db), *, id: int,
 ) -> Any:

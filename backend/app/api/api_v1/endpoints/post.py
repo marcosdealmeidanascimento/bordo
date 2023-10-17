@@ -38,7 +38,7 @@ async def create_post(
     post = await repositories.post.create(db, obj_in=post_in)
     return post
 
-@router.get("/{id}", response_model=schemas.Post)
+@router.get("/{post_id}", response_model=schemas.Post)
 async def read_post_by_id(
     post_id: int,
     db: AsyncSession = Depends(deps.get_db),
@@ -51,7 +51,7 @@ async def read_post_by_id(
 
     return post
 
-@router.put("/{id}", response_model=schemas.Post)
+@router.put("/{post_id}", response_model=schemas.Post)
 async def update_post(
     *,
     db: AsyncSession = Depends(deps.get_db),
@@ -72,7 +72,7 @@ async def update_post(
     post = await repositories.post.update(db, db_obj=post, obj_in=post_in)
     return post
 
-@router.delete("/{id}", response_model=schemas.Post)
+@router.delete("/{post_id}", response_model=schemas.Post)
 async def delete_post(
     db: AsyncSession = Depends(deps.get_db), *, id: int,
 ) -> Any:

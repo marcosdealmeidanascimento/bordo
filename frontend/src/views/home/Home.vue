@@ -5,6 +5,9 @@
   <router-link to="/category">
     <Button label="Category"></Button>
   </router-link>
+  <router-link to="/logbooks">
+    <Button label="Logbooks"></Button>
+  </router-link>
 </template>
 <script setup>
 import { useAuthStore } from '@/store/auth';

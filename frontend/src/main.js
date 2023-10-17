@@ -16,7 +16,9 @@ import router from './router'
 import InputText from 'primevue/inputtext';
 import Textarea from 'primevue/textarea';
 import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
 import Toolbar from 'primevue/toolbar';
+import ConfirmDialog from 'primevue/confirmdialog';
 import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
 let themeElement = document.getElementById('theme-link')
@@ -40,6 +42,8 @@ app.component('InputText', InputText);
 app.component('Textarea', Textarea);
 app.component('Password', Password);
 app.component('Toolbar', Toolbar);
+app.component('ConfirmDialog', ConfirmDialog);
 app.component('DataTable', DataTable);
+app.component('Column', Column);
 app.use(ConfirmationService);
 app.mount('#app');

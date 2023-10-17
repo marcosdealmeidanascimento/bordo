@@ -47,7 +47,7 @@ async def create_logbook(
 
 
 
-@router.get("/{id}", response_model=schemas.Logbook)
+@router.get("/{logbook_id}", response_model=schemas.Logbook)
 async def read_logbook_by_id(
     logbook_id: int,
     db: AsyncSession = Depends(deps.get_db),
@@ -61,7 +61,7 @@ async def read_logbook_by_id(
     return logbook
 
 
-@router.put("/{id}", response_model=schemas.Logbook)
+@router.put("/{logbook_id}", response_model=schemas.Logbook)
 async def update_logbook(
     *,
     db: AsyncSession = Depends(deps.get_db),
@@ -73,7 +73,7 @@ async def update_logbook(
     Update a logbook.
     """
     logbook = await repositories.logbook.get_by_name(db, name=logbook_in.name, user_id=logbook_in.user_id)
-    if logbook:
+    if logbook and logbook.id != logbook_id:
         raise HTTPException(
             status_code=400,
             detail="The logbook with this name already exists in the system.",
@@ -90,16 +90,16 @@ async def update_logbook(
 
 
 
-@router.delete("/{id}", response_model=schemas.Logbook)
+@router.delete("/{logbook_id}", response_model=schemas.Logbook)
 async def delete_logbook(
-    db: AsyncSession = Depends(deps.get_db), *, id: int,
+    db: AsyncSession = Depends(deps.get_db), *, logbook_id: int,
 ) -> Any:
     
-    logbook = await repositories.logbook.get(db, id=id)
+    logbook = await repositories.logbook.get(db, id=logbook_id)
     if not logbook:
         raise HTTPException(
             status_code=404,
             detail="A logbook with this id does not exists",
         )
-    logbook = await repositories.logbook.remove(db=db, id=id)
+    logbook = await repositories.logbook.remove(db=db, id=logbook_id)
     return logbook

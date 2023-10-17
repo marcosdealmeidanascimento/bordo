@@ -9,7 +9,7 @@
         <div class="flex">
             <div class="mr-5">
                 <p>Name</p>
-                <InputText v-model="name" placeholder="Name" />
+                <InputText v-model="name" required placeholder="Name" />
             </div>
             <div>
                 <p>Description</p>
