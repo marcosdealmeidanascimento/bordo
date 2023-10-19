@@ -30,4 +30,9 @@ class CRUDPost(CRUDBase[Post, PostCreate, PostUpdate]):
         
         return await super().update(db, db_obj=db_obj, obj_in=update_data)
     
+    async def getByLogbook(self, db: AsyncSession, *, logbook_id: int) -> List:
+        stmt = select(self.model).where(self.model.logbook_id == logbook_id)
+        result = await db.execute(stmt)
+        return result.scalars().all()
+    
 post = CRUDPost(Post)

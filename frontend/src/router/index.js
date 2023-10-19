@@ -32,7 +32,12 @@ const routes = [
         path: "/logbooks",
         name: "logbooks",
         component: () => import("../views/logbooks/index.vue"),
-      }
+      },
+      {
+        path: "/logbooks/:id",
+        name: "logbookDetails",
+        component: () => import("../views/logbooks/views/Details.vue"),
+      },
     ],
   },
   {

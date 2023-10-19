@@ -35,29 +35,17 @@
     </DataTable>
     <div class="grid">
         <div class="col-6 p-3" v-for="logbook in logbooks">
-            <Card style="width: 100%;">
-                <template #title>
-                    {{ logbook.name }}
-                </template>
-                <template #content>
-                    <p v-if="logbook.description">
-                        {{ logbook.description }}
-                    </p>
-                    <p style="opacity: 50%; font-style: italic;" v-else="logbook.description">
-                        No description
-                    </p>
-
-                </template>
-            </Card>
+            <Logbook :logbook="logbook" />
         </div>
     </div>
     <Toast />
-    <ConfirmDialog></ConfirmDialog>
+    <ConfirmDialog />
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import apiClient from '@/helpers/axios'
+import Logbook from "./components/Logbook.vue";
 
 const flex = ref("display: flex;")
 
@@ -114,7 +102,7 @@ const createLogbook = async () => {
                 summary: 'Success',
                 detail: 'Logbook created',
                 life: 3000
-            }); s
+            });
         }
         getLogbooks();
     } catch (err) {

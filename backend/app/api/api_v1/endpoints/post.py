@@ -51,6 +51,21 @@ async def read_post_by_id(
 
     return post
 
+
+@router.get("/logbook/{logbook_id}", response_model=List[schemas.Post])
+async def read_post_by_logbook(
+    logbook_id: int,
+    db: AsyncSession = Depends(deps.get_db),
+    _: models.Post = Depends(deps.get_current_active_superuser),
+) -> Any:
+    """
+    Get a specific post by logbook id.
+    """
+    post = await repositories.post.getByLogbook(db, logbook_id=logbook_id)
+
+    return post
+
+
 @router.put("/{post_id}", response_model=schemas.Post)
 async def update_post(
     *,
