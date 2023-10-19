@@ -35,4 +35,9 @@ class CRUDPost(CRUDBase[Post, PostCreate, PostUpdate]):
         result = await db.execute(stmt)
         return result.scalars().all()
     
+    async def getByUser(self, db: AsyncSession, *, user_id: str) -> List:
+        stmt = select(self.model).where(self.model.user_id == user_id)
+        result = await db.execute(stmt)
+        return result.scalars().all()
+    
 post = CRUDPost(Post)

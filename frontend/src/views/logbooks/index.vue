@@ -66,20 +66,14 @@ const user_id = ref("");
 const editingRows = ref([]);
 const logbooks = ref([]);
 
-const getLogbooks = async () => {
+const getLogbooksByUser = async () => {
     loading.value = true;
-    try {
-        const response = await apiClient.get("logbook");
-        logbooks.value = response.data;
-        loading.value = false;
-    } catch {
-        toast.add({
-            severity: 'error',
-            summary: 'Error',
-            detail: 'Logbooks not found',
-            life: 3000
-        });
+    const data = {
+        user_id: user_id.value
     }
+    const response = await apiClient.post("logbook/user/", data);
+    logbooks.value = response.data;
+    loading.value = false;
 }
 
 const createLogbook = async () => {
@@ -104,7 +98,7 @@ const createLogbook = async () => {
                 life: 3000
             });
         }
-        getLogbooks();
+        getLogbooksByUser();
     } catch (err) {
         toast.add({
             severity: 'error',
@@ -114,6 +108,9 @@ const createLogbook = async () => {
         });
 
     }
+
+    name.value = "";
+    description.value = "";
 
 }
 
@@ -126,7 +123,7 @@ const onRowEditSave = async (event) => {
         user_id: newData.user_id,
     });
 
-    getLogbooks();
+    getLogbooksByUser();
 
 }
 
@@ -139,11 +136,11 @@ const removeLogbook = async (event) => {
         acceptClass: 'p-button-danger',
         accept: async () => {
             await apiClient.delete("logbook/" + data.id);
-            getLogbooks();
+            getLogbooksByUser();
             toast.add({ severity: 'info', summary: 'Confirmed', detail: 'Logbook deleted', life: 3000 });
         },
         reject: () => {
-            getLogbooks();
+            getLogbooksByUser();
             toast.add({ severity: 'error', summary: 'Rejected', detail: 'Logbook not deleted', life: 3000 });
         }
     });
@@ -152,7 +149,7 @@ const removeLogbook = async (event) => {
 onMounted(() => {
     const user = JSON.parse(localStorage.getItem("user"))
     user_id.value = user.id
-    getLogbooks();
+    getLogbooksByUser();
 })
 
 </script>

@@ -62,6 +62,20 @@ async def read_activity_by_post(
 
     return activity
 
+@router.post("/user/", response_model=List[schemas.Activity])
+async def read_activity_by_user(
+    *,
+    db: AsyncSession = Depends(deps.get_db),
+    activity_in: schemas.ActivityByUser,
+    _: models.Activity = Depends(deps.get_current_active_superuser),
+) -> Any:
+    """
+    Get a specific activity by id.
+    """
+    activity = await repositories.activity.getByUser(db, user_id=activity_in.user_id)
+
+    return activity
+
 @router.put("/{activity_id}", response_model=schemas.Activity)
 async def update_activity(
     *,

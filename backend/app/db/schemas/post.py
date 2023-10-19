@@ -10,6 +10,9 @@ class PostBase(BaseModel):
     user_id: UUID4 = None
     logbook_id: int = None
 
+class PostByUser(BaseModel):
+    user_id: UUID4 = None
+
 # Properties to receive via API on creation
 class PostCreate(PostBase):
     title: str = None

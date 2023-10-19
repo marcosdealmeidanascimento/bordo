@@ -10,6 +10,9 @@ class LogbookBase(BaseModel):
     user_id: UUID4 = None
 
 
+class LogbookByUser(BaseModel):
+    user_id: UUID4 = None
+
 # Properties to receive via API on creation
 class LogbookCreate(LogbookBase):
     name: str = None

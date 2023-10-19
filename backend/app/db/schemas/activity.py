@@ -22,6 +22,9 @@ class ActivityCreate(ActivityBase):
     user_id: UUID4 = None
     post_id: int = None
 
+class ActivityByUser(BaseModel):
+    user_id: UUID4 = None
+
 class ActivityUpdate(ActivityBase):
     title: str = None
     description: Optional[str] = None

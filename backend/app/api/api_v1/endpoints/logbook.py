@@ -61,6 +61,20 @@ async def read_logbook_by_id(
     return logbook
 
 
+@router.post("/user", response_model=List[schemas.Logbook])
+async def read_logbook_by_user(
+    db: AsyncSession = Depends(deps.get_db),
+    logbook_in: schemas.LogbookByUser = Body(...),
+    _: models.Logbook = Depends(deps.get_current_active_superuser),
+) -> Any:
+    """
+    Get a specific logbook by user id.
+    """
+    logbook = await repositories.logbook.getByUser(db, user_id=logbook_in.user_id)
+
+    return logbook
+
+
 @router.put("/{logbook_id}", response_model=schemas.Logbook)
 async def update_logbook(
     *,

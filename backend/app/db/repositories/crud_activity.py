@@ -37,5 +37,10 @@ class CRUDActivity(CRUDBase[Activity, ActivityCreate, ActivityUpdate]):
         stmt = select(self.model).where(self.model.post_id == post_id)
         result = await db.execute(stmt)
         return result.scalars().all()
+    
+    async def getByUser(self, db: AsyncSession, *, user_id: str) -> List:
+        stmt = select(self.model).where(self.model.user_id == user_id)
+        result = await db.execute(stmt)
+        return result.scalars().all()
 
 activity = CRUDActivity(Activity)

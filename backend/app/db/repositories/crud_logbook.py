@@ -35,5 +35,9 @@ class CRUDLogbook(CRUDBase[Logbook, LogbookCreate, LogbookUpdate]):
         
         return await super().update(db, db_obj=db_obj, obj_in=update_data)
 
+    async def getByUser(self, db: AsyncSession, *, user_id: str) -> List:
+        stmt = select(self.model).where(self.model.user_id == user_id)
+        result = await db.execute(stmt)
+        return result.scalars().all()
 
 logbook = CRUDLogbook(Logbook)
