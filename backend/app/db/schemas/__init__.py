@@ -3,3 +3,4 @@ from .user import User, UserCreate, UserCreateNot, UserInDB, UserUpdate, UserLog
 from .category import Category, CategoryCreate, CategoryInDB, CategoryUpdate # noqa: F401, E261
 from .logbook import Logbook, LogbookCreate, LogbookInDB, LogbookUpdate # noqa: F401, E261
 from .post import Post, PostCreate, PostInDB, PostUpdate # noqa: F401, E261
+from .activity import Activity, ActivityCreate, ActivityInDB, ActivityUpdate # noqa: F401, E261
