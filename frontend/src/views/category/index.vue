@@ -3,7 +3,8 @@
         <h1>Category</h1>
     </div>
     <div>
-        <router-link to="/home">Voltar</router-link>
+        <Button @click="$router.go(-1)" icon="pi pi-arrow-left" class="mb-5" />
+
     </div>
     <form @submit.prevent="createCategory">
         <div class="flex">
@@ -45,14 +46,14 @@ const createCategory = async () => {
         });
         if (response.error) {
             toast.add({ severity: 'error', summary: 'Failed to Create a Category', detail: 'An error ocurred while creating this category', life: 3000 });
-        }else{
+        } else {
             toast.add({ severity: 'success', summary: 'Category Created', detail: 'Category Created with Success', life: 3000 });
             setTimeout(() => {
                 name.value = "";
                 description.value = "";
             }, 3000);
         }
-    } catch(err) {
+    } catch (err) {
         toast.add({ severity: 'error', summary: 'Failed to Create a Category', detail: 'An error ocurred while creating this category', life: 3000 });
     }
 }

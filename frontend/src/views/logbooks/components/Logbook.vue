@@ -1,6 +1,5 @@
 <template>
     <router-link :to="{ name: 'logbookDetails', params: {id: logbook_id} }">
-
         <Card>
             <template #title>
                 {{ logbook.name }}
@@ -25,7 +24,6 @@
             </div>
         </form>
         <Toast />
-        {{ posts }}
     </Dialog>
 </template>
 

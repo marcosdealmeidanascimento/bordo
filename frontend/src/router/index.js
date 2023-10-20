@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createMemoryHistory, createRouter, createWebHistory } from "vue-router";
 import BaseLayout from "@/layout/BaseLayout.vue";
 import AuthLayout from "@/layout/AuthLayout.vue";
 const routes = [
@@ -36,7 +36,12 @@ const routes = [
       {
         path: "/logbooks/:id",
         name: "logbookDetails",
-        component: () => import("../views/logbooks/views/Details.vue"),
+        component: () => import("../views/logbooks/views/LogbookDetails.vue"),
+      },
+      {
+        path: "/post/:id",
+        name: "postDetails",
+        component: () => import("../views/logbooks/views/PostDetails.vue"),
       },
     ],
   },

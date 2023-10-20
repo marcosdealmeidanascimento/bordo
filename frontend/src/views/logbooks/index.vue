@@ -1,5 +1,8 @@
 <template>
-    <router-link to="/home">Voltar</router-link>
+    <router-link to="/home">
+        <Button icon="pi pi-arrow-left" class="mb-5" />
+    </router-link>
+
     <form @submit.prevent="createLogbook">
         <div class="flex">
             <div class="mr-5">
