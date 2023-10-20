@@ -43,6 +43,11 @@ const routes = [
         name: "postDetails",
         component: () => import("../views/logbooks/views/PostDetails.vue"),
       },
+      {
+        path: "/activity/:id",
+        name: "activityDetails",
+        component: () => import("../views/logbooks/views/ActivityDetails.vue"),
+      },
     ],
   },
   {

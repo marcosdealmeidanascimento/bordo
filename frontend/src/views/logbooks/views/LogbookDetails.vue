@@ -1,5 +1,7 @@
 <template>
-    <Button @click="$router.go(-1)" icon="pi pi-arrow-left" class="mb-5" />
+    <router-link to="/logbooks">
+        <Button icon="pi pi-arrow-left" class="mb-5" />
+    </router-link>
 
     <Button @click="visible = true" label="Create Post" class="mt-5" />
     <Dialog v-model:visible="visible" modal maximizable header="Create Post">
